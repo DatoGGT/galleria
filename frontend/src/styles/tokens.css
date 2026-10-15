@@ -1,0 +1,61 @@
+/*
+ * Galleria Tbilisi design tokens — "framed canvas" edition.
+ * A deep navy backdrop holds a white bezel; inside it every page sits on a
+ * cool grey-blue canvas with frosted cards, condensed display type, mono
+ * labels and a single electric-lime accent. The 2017 brand spectrum is kept
+ * for category coding (dots, map, tags) but no longer drives large surfaces.
+ */
+:root {
+  --ink: #0f1828;
+  --ink-2: #2b3648;
+  --muted: #5f6c80;
+  --line: rgb(15 24 40 / 0.09);
+  --line-strong: rgb(15 24 40 / 0.18);
+
+  --backdrop: #1b335a;
+  --backdrop-2: #0b1424;
+  --frame: #ffffff;
+  --canvas: #dce3eb;
+  --canvas-2: #cfd8e2;
+  --card: rgb(244 247 250 / 0.82);
+  --card-solid: #f3f6f9;
+  --surface: #e9eef3;
+  --surface-2: #dfe6ed;
+  --bg: var(--canvas);
+
+  --lime: #d6f53a;
+  --lime-ink: #1a2300;
+
+  --mint: #6cc6b4;
+  --teal: #12b6c8;
+  --blue: #108fd4;
+  --violet: #5b3897;
+  --pink: #e94e72;
+  --orange: #f38a59;
+  --open: #4fb31f;
+
+  --spectrum: linear-gradient(90deg, var(--mint), var(--teal) 20%, var(--blue) 40%, var(--violet) 60%, var(--pink) 80%, var(--orange));
+
+  --font: 'Inter', 'Noto Sans Georgian', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Oswald', 'Noto Sans Georgian', 'Arial Narrow', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Noto Sans Georgian', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  --r-sm: 10px;
+  --r: 16px;
+  --r-lg: 22px;
+  --r-xl: 30px;
+  --bezel: 10px;
+  --frame-gap: clamp(0px, 1.4vw, 18px);
+
+  --shadow-sm: 0 1px 2px rgb(15 24 40 / 0.05), 0 2px 8px rgb(15 24 40 / 0.05);
+  --shadow: 0 2px 6px rgb(15 24 40 / 0.05), 0 18px 40px -14px rgb(15 24 40 / 0.18);
+  --shadow-lg: 0 40px 80px -24px rgb(15 24 40 / 0.4);
+  --card-edge: inset 0 0 0 1px rgb(255 255 255 / 0.85);
+
+  --container: 1320px;
+  --gutter: clamp(16px, 3.4vw, 40px);
+  --header-h: 64px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --accent: var(--ink);
+}

@@ -1,0 +1,477 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  background: var(--backdrop-2);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: var(--frame-gap);
+  background:
+    radial-gradient(120% 70% at 50% 0%, #2c5592 0%, transparent 70%),
+    linear-gradient(180deg, var(--backdrop) 0%, var(--backdrop-2) 100%) fixed;
+  color: var(--ink-2);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'ss01', 'cv11';
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+p {
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: var(--lime);
+  color: var(--lime-ink);
+}
+
+.container {
+  width: 100%;
+  max-width: calc(var(--container) + var(--gutter) * 2);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* ---------- Type ---------- */
+
+/* Condensed, all-caps display face. Georgian has no capitals, so it switches to
+   Noto Sans Georgian at its narrowest width instead. */
+.display,
+.h-display,
+.page-hero h1,
+.section-head h2,
+.h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 0.92;
+  color: var(--ink);
+}
+
+.lang-ka .display,
+.lang-ka .h-display,
+.lang-ka .page-hero h1,
+.lang-ka .section-head h2,
+.lang-ka .h2 {
+  font-family: 'Noto Sans Georgian', var(--font);
+  font-stretch: 62.5%;
+  font-weight: 800;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  line-height: 1.04;
+}
+
+.display {
+  font-size: clamp(3rem, 6vw, 6.2rem);
+}
+
+.lang-ka .display {
+  font-size: clamp(2.5rem, 5.4vw, 5.4rem);
+}
+
+.h2,
+.section-head h2 {
+  font-size: clamp(2.2rem, 4.6vw, 3.8rem);
+}
+
+.lang-ka .h2,
+.lang-ka .section-head h2 {
+  font-size: clamp(1.9rem, 3.8vw, 3.1rem);
+}
+
+/* Lime "marker" behind a word or line, as in RUN LIGHTER. */
+.mark {
+  position: relative;
+  display: inline;
+  padding: 0 0.08em;
+  background: linear-gradient(transparent 46%, var(--lime) 46%, var(--lime) 96%, transparent 96%);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.lead {
+  font-size: clamp(1.02rem, 1.3vw, 1.18rem);
+  color: var(--ink-2);
+  line-height: 1.5;
+  max-width: 42ch;
+}
+
+/* Mono micro-label: "DRIFT 2 · ROAD RACER" */
+.eyebrow,
+.mono {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.lang-ka .eyebrow,
+.lang-ka .mono {
+  letter-spacing: 0.01em;
+}
+
+.sep {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.5;
+  vertical-align: middle;
+  margin-inline: 6px;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 48px;
+  padding: 0 22px;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 0.92rem;
+  white-space: nowrap;
+  transition: transform 0.35s var(--ease), background 0.25s, color 0.25s, box-shadow 0.35s var(--ease);
+}
+
+.btn svg {
+  transition: transform 0.35s var(--ease);
+}
+
+.btn:hover svg {
+  transform: translateX(3px);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-dark {
+  background: var(--ink);
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background: #000;
+  box-shadow: 0 10px 24px -10px rgb(0 0 0 / 0.45);
+}
+
+/* Lime pill with a dark arrow chip on the right — "Shop the Drift 2 →" */
+.btn-lime {
+  padding-right: 6px;
+  background: var(--lime);
+  color: var(--lime-ink);
+  box-shadow: 0 8px 22px -10px rgb(150 190 0 / 0.8);
+}
+
+.btn-lime svg {
+  box-sizing: content-box;
+  padding: 9px;
+  border-radius: 10px;
+  background: var(--ink);
+  color: var(--lime);
+}
+
+.btn-lime:hover {
+  background: #ccef1c;
+}
+
+.btn-light {
+  background: #fff;
+  color: var(--ink);
+  box-shadow: var(--card-edge), var(--shadow-sm);
+}
+
+.btn-light:hover {
+  box-shadow: 0 10px 30px -10px rgb(0 0 0 / 0.35);
+}
+
+.btn-ghost {
+  background: rgb(255 255 255 / 0.5);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.9);
+}
+
+.btn-ghost:hover {
+  background: #fff;
+}
+
+.btn-sm {
+  height: 38px;
+  padding: 0 14px;
+  border-radius: 11px;
+  font-size: 0.86rem;
+}
+
+.btn-sm.btn-lime svg {
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.icon-btn:hover {
+  background: var(--surface);
+}
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+.text-link svg {
+  box-sizing: content-box;
+  padding: 7px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--lime);
+  transition: transform 0.35s var(--ease);
+}
+
+.text-link:hover svg,
+a:hover .text-link svg {
+  transform: translateX(4px);
+}
+
+/* ---------- Chips, tags, segmented ---------- */
+.chip {
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.55);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.9);
+  font-size: 0.86rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+}
+
+.chip:hover {
+  background: #fff;
+}
+
+.chip.is-active {
+  background: var(--ink);
+  color: #fff;
+  box-shadow: none;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+  padding: 0 12px 0 10px;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: #fff;
+  color: var(--ink);
+  box-shadow: var(--shadow-sm);
+}
+
+.tag::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.segmented {
+  display: inline-flex;
+  padding: 4px;
+  gap: 2px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.5);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.9);
+}
+
+.segmented button {
+  height: 34px;
+  min-width: 38px;
+  padding: 0 13px;
+  border-radius: 999px;
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: var(--muted);
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.segmented button:hover {
+  color: var(--ink);
+}
+
+.segmented button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.segmented button:disabled:hover {
+  color: var(--muted);
+}
+
+.segmented button.is-active {
+  background: var(--ink);
+  color: #fff;
+}
+
+/* Frosted card — the building block of the whole layout. */
+.glass,
+.panel {
+  background: var(--card);
+  backdrop-filter: blur(18px) saturate(1.4);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+  box-shadow: var(--card-edge), var(--shadow);
+}
+
+.panel {
+  border-radius: var(--r-lg);
+}
+
+/* Callout pill with icon disc: "◉ Carbon plate" */
+.callout {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  padding: 0 16px 0 5px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: var(--card-edge), var(--shadow);
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.callout-icon {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--lime);
+}
+
+.spectrum-line {
+  height: 3px;
+  background: var(--spectrum);
+}
+
+/* ---------- Scroll reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
+}
+
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

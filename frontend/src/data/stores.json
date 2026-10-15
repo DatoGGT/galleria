@@ -1,0 +1,3424 @@
+[
+  {
+    "slug": "3d-painter",
+    "name": "3D Painter",
+    "logo": "https://galleria.ge/assets/images/uploads/1539190620-447011/320-1539190620-447011.jpg",
+    "phone": "+995571696696",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.25"
+    ],
+    "category": "services",
+    "subcategories": [
+      14
+    ],
+    "audience": []
+  },
+  {
+    "slug": "afflelou-paris",
+    "name": "Afflelou Paris",
+    "logo": "https://galleria.ge/assets/images/uploads/1719914658-106658/320-1719914658-106658.jpg",
+    "phone": null,
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.28"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "almondero",
+    "name": "Almondero",
+    "logo": "https://galleria.ge/assets/images/uploads/1684233757-294998/320-1684233757-294998.jpg",
+    "phone": "+995577588552",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.22"
+    ],
+    "category": "food",
+    "subcategories": [
+      17
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "altersocks",
+    "name": "AlterSocks",
+    "logo": "https://galleria.ge/assets/images/uploads/1596525831-535602/320-1596525831-535602.jpg",
+    "phone": "+995598517507",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.22"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "anishko",
+    "name": "Anishko",
+    "logo": "https://galleria.ge/assets/images/uploads/1561015325-653665/320-1561015325-653665.png",
+    "phone": "+995599008383",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.21"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": []
+  },
+  {
+    "slug": "armani-exchange",
+    "name": "Armani Exchange",
+    "logo": "https://galleria.ge/assets/images/uploads/1510042076-184746/320-1510042076-184746.svg",
+    "phone": "+995322004822",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.03"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "arttime",
+    "name": "Arttime",
+    "logo": "https://galleria.ge/assets/images/uploads/1510042686-1090/320-1510042686-1090.svg",
+    "phone": "+995577921211",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.05"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "at-store",
+    "name": "At Store",
+    "logo": "https://galleria.ge/assets/images/uploads/1621343206-426282/320-1621343206-426282.jpg",
+    "phone": "+995558587219",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.27"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "atrio",
+    "name": "Atrio",
+    "logo": "https://galleria.ge/assets/images/uploads/1510116211-500963/320-1510116211-500963.svg",
+    "phone": "+9955322004814",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.10"
+    ],
+    "category": "shops",
+    "subcategories": [
+      2
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "avtandil",
+    "name": "Avtandil",
+    "logo": "https://galleria.ge/assets/images/uploads/1510143460-982768/320-1510143460-982768.svg",
+    "phone": "+995557947039",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.20"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "aw-lab",
+    "name": "AW Lab",
+    "logo": "https://galleria.ge/assets/images/uploads/1536678429-179338/320-1536678429-179338.png",
+    "phone": "+995591443492",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.11"
+    ],
+    "category": "shops",
+    "subcategories": [
+      3
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "ballroom",
+    "name": "Ballroom",
+    "logo": "https://galleria.ge/assets/images/uploads/1516865858-600529/320-1516865858-600529.svg",
+    "phone": "+995591 755755",
+    "hours": {
+      "from": "11:00",
+      "to": "02:00"
+    },
+    "floor": 5,
+    "places": [
+      "5.01"
+    ],
+    "category": "entertainment",
+    "subcategories": [
+      23
+    ],
+    "audience": []
+  },
+  {
+    "slug": "bang-olufsen",
+    "name": "Bang & Olufsen",
+    "logo": "https://galleria.ge/assets/images/uploads/1751887334-462828/320-1751887334-462828.jpg",
+    "phone": "+995 598875959",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.34"
+    ],
+    "category": "shops",
+    "subcategories": [
+      9
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "bangkok",
+    "name": "Bangkok",
+    "logo": "https://galleria.ge/assets/images/uploads/1716546533-321583/320-1716546533-321583.png",
+    "phone": "+995 555 200 499",
+    "hours": null,
+    "floor": 4,
+    "places": [
+      "4.19"
+    ],
+    "category": "food",
+    "subcategories": [
+      15
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "be-yo",
+    "name": "BE YO",
+    "logo": "https://galleria.ge/assets/images/uploads/1656333789-962057/320-1656333789-962057.jpg",
+    "phone": "+995596351818",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.18"
+    ],
+    "category": "food",
+    "subcategories": [
+      17
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "beardge",
+    "name": "Beard.ge",
+    "logo": "https://galleria.ge/assets/images/uploads/1697462114-80693/320-1697462114-80693.jpg",
+    "phone": "+995322054515",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.35"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": []
+  },
+  {
+    "slug": "beauty-corner",
+    "name": "Beauty Corner",
+    "logo": "https://galleria.ge/assets/images/uploads/1677076372-416300/320-1677076372-416300.jpg",
+    "phone": "+995322905105",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.15"
+    ],
+    "category": "shops",
+    "subcategories": [
+      9
+    ],
+    "audience": []
+  },
+  {
+    "slug": "beauty-vision",
+    "name": "Beauty Vision",
+    "logo": "https://galleria.ge/assets/images/uploads/1779352861-462367/320-1779352861-462367.jpg",
+    "phone": "+995  579 02 00 30",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.02"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "bene-shoes",
+    "name": "Bene Shoes",
+    "logo": "https://galleria.ge/assets/images/uploads/1553264032-207649/320-1553264032-207649.png",
+    "phone": "+995591549863",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.06"
+    ],
+    "category": "shops",
+    "subcategories": [
+      2
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "biblusi",
+    "name": "Biblusi",
+    "logo": "https://galleria.ge/assets/images/uploads/1605610124-690686/320-1605610124-690686.png",
+    "phone": "+995577048899",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.16"
+    ],
+    "category": "shops",
+    "subcategories": [
+      10
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "big-sams-street-food-bar",
+    "name": "Big Sam's Street Food Bar",
+    "logo": "https://galleria.ge/assets/images/uploads/1602514299-444784/320-1602514299-444784.png",
+    "phone": "+995598160000",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.23"
+    ],
+    "category": "food",
+    "subcategories": [
+      26,
+      15
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "blue-tabla",
+    "name": "Blue Tabla",
+    "logo": "https://galleria.ge/assets/images/uploads/1677194535-590104/320-1677194535-590104.jpg",
+    "phone": "+995599200200",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.13"
+    ],
+    "category": "shops",
+    "subcategories": [
+      8
+    ],
+    "audience": []
+  },
+  {
+    "slug": "brunch-by-gastronome",
+    "name": "Brunch by Gastronome",
+    "logo": "https://galleria.ge/assets/images/uploads/1710238407-900033/320-1710238407-900033.jpg",
+    "phone": "032 219 30 10",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.20"
+    ],
+    "category": "food",
+    "subcategories": [
+      17,
+      15
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "burger-king",
+    "name": "Burger King",
+    "logo": "https://galleria.ge/assets/images/uploads/1510134816-936130/320-1510134816-936130.svg",
+    "phone": "+995322200252",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.11"
+    ],
+    "category": "food",
+    "subcategories": [
+      15
+    ],
+    "audience": []
+  },
+  {
+    "slug": "burger-lions",
+    "name": "Burger Lions",
+    "logo": "https://galleria.ge/assets/images/uploads/1750061079-748419/320-1750061079-748419.jpg",
+    "phone": "+995 0322 560907",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.24"
+    ],
+    "category": "food",
+    "subcategories": [
+      15
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "calvin-klein-jeans",
+    "name": "Calvin Klein Jeans",
+    "logo": "https://galleria.ge/assets/images/uploads/1510083969-77214/320-1510083969-77214.svg",
+    "phone": "032 2 19 33 15",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.08"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "calzedonia",
+    "name": "Calzedonia",
+    "logo": "https://galleria.ge/assets/images/uploads/1510144191-207446/320-1510144191-207446.svg",
+    "phone": "+995593238564",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.17"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "carters",
+    "name": "Carter's",
+    "logo": "https://galleria.ge/assets/images/uploads/1677194277-434280/320-1677194277-434280.jpg",
+    "phone": null,
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.08"
+    ],
+    "category": "shops",
+    "subcategories": [
+      4
+    ],
+    "audience": [
+      "kids"
+    ]
+  },
+  {
+    "slug": "cat-products-georgia",
+    "name": "Cat Products Georgia",
+    "logo": "https://galleria.ge/assets/images/uploads/1583850265-864213/320-1583850265-864213.jpeg",
+    "phone": "+995511122712",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.12"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "cavea-galleria-tbilisi",
+    "name": "Cavea Galleria Tbilisi",
+    "logo": "https://galleria.ge/assets/images/uploads/1510120749-513954/320-1510120749-513954.svg",
+    "phone": "+995322007007",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 5,
+    "places": [
+      "5.02",
+      "5.03",
+      "5.04",
+      "6.01",
+      "6.02",
+      "6.03"
+    ],
+    "category": "entertainment",
+    "subcategories": [
+      21
+    ],
+    "audience": []
+  },
+  {
+    "slug": "cellfie",
+    "name": "Cellfie",
+    "logo": "https://galleria.ge/assets/images/uploads/1776845611-570001/320-1776845611-570001.jpg",
+    "phone": "0322200611",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.24"
+    ],
+    "category": "services",
+    "subcategories": [
+      14
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "chirifruit",
+    "name": "Chirifruit",
+    "logo": "https://galleria.ge/assets/images/uploads/1677193861-219620/320-1677193861-219620.jpg",
+    "phone": "+995597589898",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.17"
+    ],
+    "category": "shops",
+    "subcategories": [
+      10
+    ],
+    "audience": []
+  },
+  {
+    "slug": "chito-pan-asian-european-food",
+    "name": "Chito Pan Asian & European Food",
+    "logo": "https://galleria.ge/assets/images/uploads/1680608559-964134/320-1680608559-964134.jpg",
+    "phone": "+995579333752",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.08"
+    ],
+    "category": "food",
+    "subcategories": [
+      26
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "cinnabon",
+    "name": "cinnabon",
+    "logo": "https://galleria.ge/assets/images/uploads/1684234236-901482/320-1684234236-901482.jpg",
+    "phone": null,
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.10"
+    ],
+    "category": "food",
+    "subcategories": [
+      17
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "coffeesta",
+    "name": "Coffeesta",
+    "logo": "https://galleria.ge/assets/images/uploads/1510134061-462285/320-1510134061-462285.svg",
+    "phone": "+995591069585",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.13"
+    ],
+    "category": "food",
+    "subcategories": [
+      17
+    ],
+    "audience": []
+  },
+  {
+    "slug": "crystal-jewelry",
+    "name": "Crystal Jewelry",
+    "logo": "https://galleria.ge/assets/images/uploads/1599118066-830415/320-1599118066-830415.png",
+    "phone": "+9950322365706",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.18"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "currency-exchange",
+    "name": "Currency Exchange",
+    "logo": "https://galleria.ge/assets/images/uploads/1535551489-791826/320-1535551489-791826.png",
+    "phone": "+995593313193",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.23"
+    ],
+    "category": "services",
+    "subcategories": [
+      14
+    ],
+    "audience": []
+  },
+  {
+    "slug": "dan-john",
+    "name": "Dan John",
+    "logo": "https://galleria.ge/assets/images/uploads/1775122870-591476/320-1775122870-591476.jpg",
+    "phone": "032 2 800 303 (214)",
+    "hours": null,
+    "floor": 1,
+    "places": [
+      "1.28"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male"
+    ]
+  },
+  {
+    "slug": "delfos",
+    "name": "Delfos",
+    "logo": "https://galleria.ge/assets/images/uploads/1511173324-716264/320-1511173324-716264.svg",
+    "phone": "0322309043",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.04"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "delfy",
+    "name": "Delfy",
+    "logo": "https://galleria.ge/assets/images/uploads/1510040813-754093/320-1510040813-754093.svg",
+    "phone": "+995595958855",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.30"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "details",
+    "name": "Details",
+    "logo": "https://galleria.ge/assets/images/uploads/1678190170-380605/320-1678190170-380605.jpg",
+    "phone": "995557 742 268",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.19"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": []
+  },
+  {
+    "slug": "diesel",
+    "name": "diesel",
+    "logo": "https://galleria.ge/assets/images/uploads/1717142411-633455/320-1717142411-633455.png",
+    "phone": "995 596 43 50 50",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.04"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "dkny",
+    "name": "DKNY",
+    "logo": "https://galleria.ge/assets/images/uploads/1685359446-785438/320-1685359446-785438.jpg",
+    "phone": "+995500777005",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.11"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "elena-miro",
+    "name": "ELENA MIRO",
+    "logo": "https://galleria.ge/assets/images/uploads/1756984809-76494/320-1756984809-76494.png",
+    "phone": null,
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.20"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "erborian",
+    "name": "Erborian",
+    "logo": "https://galleria.ge/assets/images/uploads/1773823863-545029/320-1773823863-545029.png",
+    "phone": "+995 599204353",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.33"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "eshvi",
+    "name": "ESHVI",
+    "logo": "https://galleria.ge/assets/images/uploads/1669730016-784733/320-1669730016-784733.jpg",
+    "phone": "+995511304552",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.31"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "espacho",
+    "name": "Espacho",
+    "logo": "https://galleria.ge/assets/images/uploads/1511260490-216415/320-1511260490-216415.svg",
+    "phone": "+995598 88 99 00",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.24"
+    ],
+    "category": "shops",
+    "subcategories": [
+      4
+    ],
+    "audience": []
+  },
+  {
+    "slug": "factory",
+    "name": "Factory",
+    "logo": "https://galleria.ge/assets/images/uploads/1510081076-318313/320-1510081076-318313.jpg",
+    "phone": "+995322004812",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.01"
+    ],
+    "category": "shops",
+    "subcategories": [
+      2
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "film-house",
+    "name": "Film House",
+    "logo": "https://galleria.ge/assets/images/uploads/1757067977-297062/320-1757067977-297062.png",
+    "phone": "+995 571 02 40 40",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.15"
+    ],
+    "category": "shops",
+    "subcategories": [
+      8
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "flower-bar",
+    "name": "Flower Bar",
+    "logo": "https://galleria.ge/assets/images/uploads/1662360366-94178/320-1662360366-94178.png",
+    "phone": "+995577374104",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.32"
+    ],
+    "category": "shops",
+    "subcategories": [
+      10
+    ],
+    "audience": []
+  },
+  {
+    "slug": "franco-fontana",
+    "name": "Franco Fontana",
+    "logo": "https://galleria.ge/assets/images/uploads/1510042928-695199/320-1510042928-695199.svg",
+    "phone": "+995 32 2 040 405",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.11"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "fujifilm",
+    "name": "Fujifilm",
+    "logo": "https://galleria.ge/assets/images/uploads/1545034472-957153/320-1545034472-957153.png",
+    "phone": "+995514000231",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.14"
+    ],
+    "category": "shops",
+    "subcategories": [
+      9
+    ],
+    "audience": []
+  },
+  {
+    "slug": "furla",
+    "name": "Furla",
+    "logo": "https://galleria.ge/assets/images/uploads/1741081886-791801/320-1741081886-791801.png",
+    "phone": null,
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.21"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "game-zone",
+    "name": "game zone",
+    "logo": "https://galleria.ge/assets/images/uploads/1720448325-407050/320-1720448325-407050.jpg",
+    "phone": "+995 0322 04 07 00",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.21"
+    ],
+    "category": "shops",
+    "subcategories": [
+      9
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "gant",
+    "name": "Gant",
+    "logo": "https://galleria.ge/assets/images/uploads/1547621188-345689/320-1547621188-345689.png",
+    "phone": "+995322003987",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.27"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male"
+    ]
+  },
+  {
+    "slug": "gegelato",
+    "name": "GeGelato",
+    "logo": "https://galleria.ge/assets/images/uploads/1631518279-402260/320-1631518279-402260.png",
+    "phone": "+995599321631",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.21"
+    ],
+    "category": "food",
+    "subcategories": [
+      17
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "georgian-designers-corner",
+    "name": "Georgian Designers Corner",
+    "logo": "https://galleria.ge/assets/images/uploads/1510843003-267251/320-1510843003-267251.jpg",
+    "phone": "+995555509298",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.19"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": []
+  },
+  {
+    "slug": "georgian-kalata",
+    "name": "Georgian Kalata",
+    "logo": "https://galleria.ge/assets/images/uploads/1714385000-785088/320-1714385000-785088.png",
+    "phone": "+995 599 916 815",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.10"
+    ],
+    "category": "shops",
+    "subcategories": [
+      10
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "gianfranco-ferre",
+    "name": "GIANFRANCO FERRE",
+    "logo": "https://galleria.ge/assets/images/uploads/1758722394-709101/320-1758722394-709101.jpg",
+    "phone": "+995 511 720 949",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.29"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "gladiators-accesories",
+    "name": "Gladiators Accesories",
+    "logo": "https://galleria.ge/assets/images/uploads/1647412994-44110/320-1647412994-44110.jpg",
+    "phone": "+995597101085",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": null,
+    "places": [],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "gmt",
+    "name": "GMT",
+    "logo": "https://galleria.ge/assets/images/uploads/1626074561-982426/320-1626074561-982426.png",
+    "phone": "+995592810202",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.19"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "goodwill",
+    "name": "Goodwill",
+    "logo": "https://galleria.ge/assets/images/uploads/1510041263-934806/320-1510041263-934806.jpg",
+    "phone": "+995322400002",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.11"
+    ],
+    "category": "shops",
+    "subcategories": [
+      7
+    ],
+    "audience": []
+  },
+  {
+    "slug": "gpc-pharmacy-and-more",
+    "name": "GPC-Pharmacy and more",
+    "logo": "https://galleria.ge/assets/images/uploads/1643792357-30354/320-1643792357-30354.jpg",
+    "phone": "+995595228883",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.22"
+    ],
+    "category": "services",
+    "subcategories": [
+      14
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "griboedov-theatre",
+    "name": "Griboedov Theatre",
+    "logo": "https://galleria.ge/assets/images/uploads/1510696759-852391/320-1510696759-852391.svg",
+    "phone": "+995322931106",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "0.51"
+    ],
+    "category": "entertainment",
+    "subcategories": [
+      19
+    ],
+    "audience": []
+  },
+  {
+    "slug": "guess",
+    "name": "guess",
+    "logo": "https://galleria.ge/assets/images/uploads/1510116430-680807/320-1510116430-680807.svg",
+    "phone": "+992322004816",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.02"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "hm",
+    "name": "H&M",
+    "logo": "https://galleria.ge/assets/images/uploads/1510043523-258808/320-1510043523-258808.svg",
+    "phone": "+995322 00 22 92",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.09",
+      "1.07",
+      "2.14"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "hackett",
+    "name": "hackett",
+    "logo": "https://galleria.ge/assets/images/uploads/1759741348-276539/320-1759741348-276539.png",
+    "phone": "+995 032 280 03 03",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.37"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male"
+    ]
+  },
+  {
+    "slug": "hogan",
+    "name": "hogan",
+    "logo": "https://galleria.ge/assets/images/uploads/1763635480-766631/320-1763635480-766631.png",
+    "phone": "+995591343852",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.07"
+    ],
+    "category": "shops",
+    "subcategories": [
+      2
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "illy-caffe",
+    "name": "illy Caffe",
+    "logo": "https://galleria.ge/assets/images/uploads/1522690380-789989/320-1522690380-789989.svg",
+    "phone": "+995558059955",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.04"
+    ],
+    "category": "food",
+    "subcategories": [
+      17
+    ],
+    "audience": []
+  },
+  {
+    "slug": "ismart",
+    "name": "iSmart",
+    "logo": "https://galleria.ge/assets/images/uploads/1630316550-4491/320-1630316550-4491.jpg",
+    "phone": "+995595883637",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.17"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": []
+  },
+  {
+    "slug": "ispace",
+    "name": "iSpace",
+    "logo": "https://galleria.ge/assets/images/uploads/1761035872-960267/320-1761035872-960267.jpg",
+    "phone": "+995322235323",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.35"
+    ],
+    "category": "shops",
+    "subcategories": [
+      9
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "izipizi",
+    "name": "IZIPIZI",
+    "logo": "https://galleria.ge/assets/images/uploads/1592984444-683844/320-1592984444-683844.jpg",
+    "phone": "+995551189800",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.23"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "jacadi-georgia",
+    "name": "Jacadi Georgia",
+    "logo": "https://galleria.ge/assets/images/uploads/1641476837-403443/320-1641476837-403443.jpg",
+    "phone": "+995599874363",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.04"
+    ],
+    "category": "shops",
+    "subcategories": [
+      4
+    ],
+    "audience": []
+  },
+  {
+    "slug": "jbl",
+    "name": "JBL",
+    "logo": "https://galleria.ge/assets/images/uploads/1759394226-94791/320-1759394226-94791.png",
+    "phone": "+995 555991199",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.07"
+    ],
+    "category": "shops",
+    "subcategories": [
+      9
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "jsc-silknet",
+    "name": "JSC Silknet",
+    "logo": "https://galleria.ge/assets/images/uploads/1701956813-490077/320-1701956813-490077.jpg",
+    "phone": "+995 322 100 100",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.18"
+    ],
+    "category": "services",
+    "subcategories": [
+      14
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "just-cavalli",
+    "name": "JUST CAVALLI",
+    "logo": "https://galleria.ge/assets/images/uploads/1768296569-63983/320-1768296569-63983.png",
+    "phone": null,
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.28"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "jysk",
+    "name": "JYSK",
+    "logo": "https://galleria.ge/assets/images/uploads/1510041555-198850/320-1510041555-198850.svg",
+    "phone": "032 211 77 77",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.12"
+    ],
+    "category": "shops",
+    "subcategories": [
+      8
+    ],
+    "audience": []
+  },
+  {
+    "slug": "kalta-bedniereba",
+    "name": "Kalta Bedniereba",
+    "logo": "https://galleria.ge/assets/images/uploads/1510040033-565635/320-1510040033-565635.jpg",
+    "phone": "+995322060777",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.03"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "karl-lagerfeld",
+    "name": "Karl Lagerfeld",
+    "logo": "https://galleria.ge/assets/images/uploads/1552305721-186530/320-1552305721-186530.jpg",
+    "phone": "+995592003733",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.15"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "kenari",
+    "name": "Kenari",
+    "logo": "https://galleria.ge/assets/images/uploads/1510118822-44208/320-1510118822-44208.svg",
+    "phone": "+995322004724",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.24"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "kfc",
+    "name": "KFC",
+    "logo": "https://galleria.ge/assets/images/uploads/1510121314-127424/320-1510121314-127424.svg",
+    "phone": "+995577043710",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.15"
+    ],
+    "category": "food",
+    "subcategories": [
+      15
+    ],
+    "audience": []
+  },
+  {
+    "slug": "kids-gallery",
+    "name": "Kid’s Gallery",
+    "logo": "https://galleria.ge/assets/images/uploads/1663760314-792788/320-1663760314-792788.png",
+    "phone": "+995322051958",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.07"
+    ],
+    "category": "shops",
+    "subcategories": [
+      4
+    ],
+    "audience": [
+      "kids"
+    ]
+  },
+  {
+    "slug": "kocos-korean-cosmetics",
+    "name": "KoCos - Korean Cosmetics",
+    "logo": "https://galleria.ge/assets/images/uploads/1591619295-676852/320-1591619295-676852.jpg",
+    "phone": "+995551161371",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.23"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": []
+  },
+  {
+    "slug": "loccitane",
+    "name": "L'OCCITANE",
+    "logo": "https://galleria.ge/assets/images/uploads/1699618708-490805/320-1699618708-490805.jpg",
+    "phone": "032 218 51 86",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.01"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "lace-up",
+    "name": "LACE UP",
+    "logo": "https://galleria.ge/assets/images/uploads/1774337730-259196/320-1774337730-259196.jpg",
+    "phone": "+995 599 87 37 78",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.14"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1,
+      3
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "lacoste",
+    "name": "Lacoste",
+    "logo": "https://galleria.ge/assets/images/uploads/1510116002-890661/320-1510116002-890661.svg",
+    "phone": "+995322004815",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.09"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "lc-waikiki",
+    "name": "Lc Waikiki",
+    "logo": "https://galleria.ge/assets/images/uploads/1510081596-188369/320-1510081596-188369.svg",
+    "phone": "+995577360529",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.08"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "lee-wrangler",
+    "name": "Lee Wrangler",
+    "logo": "https://galleria.ge/assets/images/uploads/1547644929-966071/320-1547644929-966071.png",
+    "phone": "+995322004810",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.09"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "levis",
+    "name": "Levi's",
+    "logo": "https://galleria.ge/assets/images/uploads/1510143667-480634/320-1510143667-480634.svg",
+    "phone": "+995322004811",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.06"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "liberty-theater",
+    "name": "Liberty Theater",
+    "logo": "https://galleria.ge/assets/images/uploads/1510763029-328636/320-1510763029-328636.jpg",
+    "phone": "+995322985821",
+    "hours": {
+      "from": "11:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "2.50"
+    ],
+    "category": "entertainment",
+    "subcategories": [
+      19
+    ],
+    "audience": []
+  },
+  {
+    "slug": "lion-of-porches",
+    "name": "Lion of Porches",
+    "logo": "https://galleria.ge/assets/images/uploads/1536582103-958682/320-1536582103-958682.png",
+    "phone": "+995577220002",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.03"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "luca-polare",
+    "name": "Luca Polare",
+    "logo": "https://galleria.ge/assets/images/uploads/1599118266-783702/320-1599118266-783702.png",
+    "phone": "+995322380802",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.16"
+    ],
+    "category": "food",
+    "subcategories": [
+      15
+    ],
+    "audience": []
+  },
+  {
+    "slug": "luisa-spagnoli",
+    "name": "Luisa Spagnoli",
+    "logo": "https://galleria.ge/assets/images/uploads/1763557680-288838/320-1763557680-288838.jpg",
+    "phone": "+995577188716",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.27"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "lutecia",
+    "name": "Lutecia",
+    "logo": "https://galleria.ge/assets/images/uploads/1710424029-714482/320-1710424029-714482.jpg",
+    "phone": "+995595888814",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.08"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "mac-cosmetics",
+    "name": "M·A·C Cosmetics",
+    "logo": "https://galleria.ge/assets/images/uploads/1626789212-328734/320-1626789212-328734.png",
+    "phone": "+995551118009",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.21"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "madame-coco",
+    "name": "Madame Coco",
+    "logo": "https://galleria.ge/assets/images/uploads/1681220736-447025/320-1681220736-447025.png",
+    "phone": "+995577131030",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.20"
+    ],
+    "category": "shops",
+    "subcategories": [
+      8
+    ],
+    "audience": []
+  },
+  {
+    "slug": "magellan",
+    "name": "Magellan",
+    "logo": "https://galleria.ge/assets/images/uploads/1539705134-873924/320-1539705134-873924.png",
+    "phone": "+995598978258",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.06"
+    ],
+    "category": "shops",
+    "subcategories": [
+      3
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "magic-candy",
+    "name": "Magic Candy",
+    "logo": "https://galleria.ge/assets/images/uploads/1539331345-694008/320-1539331345-694008.png",
+    "phone": "+995551710044",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.11"
+    ],
+    "category": "shops",
+    "subcategories": [
+      10
+    ],
+    "audience": []
+  },
+  {
+    "slug": "manamo-home",
+    "name": "Manamo home",
+    "logo": "https://galleria.ge/assets/images/uploads/1677193741-774081/320-1677193741-774081.jpg",
+    "phone": "+995322209735",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.25"
+    ],
+    "category": "shops",
+    "subcategories": [
+      8
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "mandarina",
+    "name": "Mandarina",
+    "logo": "https://galleria.ge/assets/images/uploads/1638360088-22932/320-1638360088-22932.jpg",
+    "phone": "+995322050808",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.20"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "marc-opolo",
+    "name": "Marc O'POLO",
+    "logo": "https://galleria.ge/assets/images/uploads/1681125866-71805/320-1681125866-71805.jpg",
+    "phone": "032 2 800 303 (203)",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.33"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "mayoral",
+    "name": "Mayoral",
+    "logo": "https://galleria.ge/assets/images/uploads/1555688241-774837/320-1555688241-774837.jpg",
+    "phone": "032 2 800 303 (213)",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.03"
+    ],
+    "category": "shops",
+    "subcategories": [
+      4
+    ],
+    "audience": [
+      "kids"
+    ]
+  },
+  {
+    "slug": "mcdonalds",
+    "name": "McDonalds",
+    "logo": "https://galleria.ge/assets/images/uploads/1510121057-326971/320-1510121057-326971.svg",
+    "phone": "+995591061546",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.12"
+    ],
+    "category": "food",
+    "subcategories": [
+      15
+    ],
+    "audience": []
+  },
+  {
+    "slug": "miniso",
+    "name": "Miniso",
+    "logo": "https://galleria.ge/assets/images/uploads/1511173532-311616/320-1511173532-311616.svg",
+    "phone": "+995577159565",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.09"
+    ],
+    "category": "shops",
+    "subcategories": [
+      8
+    ],
+    "audience": []
+  },
+  {
+    "slug": "missepo",
+    "name": "Missepo",
+    "logo": "https://galleria.ge/assets/images/uploads/1669795023-92946/320-1669795023-92946.jpg",
+    "phone": "+995 555520257",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.24"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "mobo",
+    "name": "Mobo",
+    "logo": "https://galleria.ge/assets/images/uploads/1525691769-705848/320-1525691769-705848.svg",
+    "phone": "+995599077024",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.06"
+    ],
+    "category": "shops",
+    "subcategories": [
+      9
+    ],
+    "audience": []
+  },
+  {
+    "slug": "monnalisa",
+    "name": "MONNALISA",
+    "logo": "https://galleria.ge/assets/images/uploads/1728557194-948619/320-1728557194-948619.jpg",
+    "phone": "+995 577188716",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.28"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1,
+      4
+    ],
+    "audience": [
+      "kids"
+    ]
+  },
+  {
+    "slug": "new-yorker",
+    "name": "New Yorker",
+    "logo": "https://galleria.ge/assets/images/uploads/1510758434-172560/320-1510758434-172560.svg",
+    "phone": "+995322972153",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.14"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "nicolo",
+    "name": "Nicolo",
+    "logo": "https://galleria.ge/assets/images/uploads/1730196782-459281/320-1730196782-459281.jpg",
+    "phone": "+995 598 971 639",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.20"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "no-one",
+    "name": "No One",
+    "logo": "https://galleria.ge/assets/images/uploads/1656583735-856671/320-1656583735-856671.png",
+    "phone": "+995577035555",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.26"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "nugbari",
+    "name": "Nugbari",
+    "logo": "https://galleria.ge/assets/images/uploads/1539329354-318551/320-1539329354-318551.png",
+    "phone": "+995322149044",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.16"
+    ],
+    "category": "shops",
+    "subcategories": [
+      10
+    ],
+    "audience": []
+  },
+  {
+    "slug": "nyx-professional-makeup",
+    "name": "NYX PROFESSIONAL MAKEUP",
+    "logo": "https://galleria.ge/assets/images/uploads/1510843053-494424/320-1510843053-494424.jpg",
+    "phone": "+995599522090",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.13"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": []
+  },
+  {
+    "slug": "okaidi",
+    "name": "Okaidi",
+    "logo": "https://galleria.ge/assets/images/uploads/1510144796-118288/320-1510144796-118288.svg",
+    "phone": "+995595015027 https://www.facebook.com/OkaidiWorld/",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.23"
+    ],
+    "category": "shops",
+    "subcategories": [
+      4
+    ],
+    "audience": [
+      "kids"
+    ]
+  },
+  {
+    "slug": "okkia",
+    "name": "OKKIA",
+    "logo": "https://galleria.ge/assets/images/uploads/1763558023-467895/320-1763558023-467895.jpg",
+    "phone": "+995 598 89 99 45",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.25"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "old-supra",
+    "name": "Old supra",
+    "logo": "https://galleria.ge/assets/images/uploads/1677068990-828464/320-1677068990-828464.jpg",
+    "phone": "+995 599 37 72 82",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.22"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5,
+      8
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "original-marines",
+    "name": "Original Marines",
+    "logo": "https://galleria.ge/assets/images/uploads/1658230806-498409/320-1658230806-498409.jpg",
+    "phone": "032 2 800 303 (204)",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.05"
+    ],
+    "category": "shops",
+    "subcategories": [
+      4
+    ],
+    "audience": [
+      "kids"
+    ]
+  },
+  {
+    "slug": "pandora",
+    "name": "Pandora",
+    "logo": "https://galleria.ge/assets/images/uploads/1510041799-346813/320-1510041799-346813.svg",
+    "phone": "+995322000280",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.02"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "patrizia-pepe",
+    "name": "Patrizia Pepe",
+    "logo": "https://galleria.ge/assets/images/uploads/1677193690-451118/320-1677193690-451118.jpg",
+    "phone": "0322121217 (103)",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.12"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "pendant",
+    "name": "Pendant",
+    "logo": "https://galleria.ge/assets/images/uploads/1709032942-641676/320-1709032942-641676.jpg",
+    "phone": "597 007 052",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": null,
+    "places": [],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "pepe-jeans",
+    "name": "Pepe Jeans",
+    "logo": "https://galleria.ge/assets/images/uploads/1568279984-870557/320-1568279984-870557.png",
+    "phone": "032 2 800 303 (200)",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.05"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": []
+  },
+  {
+    "slug": "piel-naturals",
+    "name": "Piel Naturals",
+    "logo": "https://galleria.ge/assets/images/uploads/1615455125-583092/320-1615455125-583092.png",
+    "phone": "+995595800010",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.26"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "pinko",
+    "name": "Pinko",
+    "logo": "https://galleria.ge/assets/images/uploads/1677194764-144759/320-1677194764-144759.jpg",
+    "phone": "+995500550020",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.13"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "podium",
+    "name": "Podium",
+    "logo": "https://galleria.ge/assets/images/uploads/1510145415-106179/320-1510145415-106179.svg",
+    "phone": "+995322 989668",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.01"
+    ],
+    "category": "services",
+    "subcategories": [
+      13
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "posh-tbilisi",
+    "name": "POSH TBILISI",
+    "logo": "https://galleria.ge/assets/images/uploads/1776159426-256514/320-1776159426-256514.jpg",
+    "phone": "+995598213315",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.19"
+    ],
+    "category": "shops",
+    "subcategories": [
+      2
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "psp",
+    "name": "PSP",
+    "logo": "https://galleria.ge/assets/images/uploads/1677076668-372217/320-1677076668-372217.png",
+    "phone": "+995322404045",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.10"
+    ],
+    "category": "services",
+    "subcategories": [
+      14
+    ],
+    "audience": []
+  },
+  {
+    "slug": "redberry",
+    "name": "Redberry",
+    "logo": "https://galleria.ge/assets/images/uploads/1622553890-986802/320-1622553890-986802.jpg",
+    "phone": "+995322051626",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.07"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "ria-ria",
+    "name": "Ria-Ria",
+    "logo": "https://galleria.ge/assets/images/uploads/1521731312-965041/320-1521731312-965041.png",
+    "phone": "+995591040015",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.02",
+      "4.01"
+    ],
+    "category": "entertainment",
+    "subcategories": [
+      22
+    ],
+    "audience": []
+  },
+  {
+    "slug": "roberto-bravo",
+    "name": "Roberto Bravo",
+    "logo": "https://galleria.ge/assets/images/uploads/1677669010-859868/320-1677669010-859868.png",
+    "phone": "+995322308166",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.04"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "roman",
+    "name": "Roman",
+    "logo": "https://galleria.ge/assets/images/uploads/1677193630-8664/320-1677193630-8664.jpg",
+    "phone": "+995599363777",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.18"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "roniko",
+    "name": "Roniko",
+    "logo": "https://galleria.ge/assets/images/uploads/1712915785-665108/320-1712915785-665108.jpg",
+    "phone": "+995322004727",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "1.1",
+      "0.15"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "sakhachapure-n1",
+    "name": "Sakhachapure N1",
+    "logo": "https://galleria.ge/assets/images/uploads/1510134633-28794/320-1510134633-28794.jpg",
+    "phone": "+995322200283",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.03"
+    ],
+    "category": "food",
+    "subcategories": [
+      18
+    ],
+    "audience": []
+  },
+  {
+    "slug": "samsonite",
+    "name": "Samsonite",
+    "logo": "https://galleria.ge/assets/images/uploads/1664451337-622176/320-1664451337-622176.jpg",
+    "phone": "+995322194113",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.15"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "sharkninja",
+    "name": "Shark/Ninja",
+    "logo": "https://galleria.ge/assets/images/uploads/1756821512-960855/320-1756821512-960855.png",
+    "phone": "+995 544 33 38 88",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.24"
+    ],
+    "category": "shops",
+    "subcategories": [
+      8,
+      9
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "shaurma-time",
+    "name": "Shaurma Time",
+    "logo": "https://galleria.ge/assets/images/uploads/1752671719-789708/320-1752671719-789708.jpg",
+    "phone": "+995 032 288 80 28",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.27"
+    ],
+    "category": "food",
+    "subcategories": [
+      15
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "silvio-ditalia",
+    "name": "Silvio D'Italia",
+    "logo": "https://galleria.ge/assets/images/uploads/1535609962-545002/320-1535609962-545002.png",
+    "phone": "+995322002824",
+    "hours": {
+      "from": "10:00",
+      "to": "02:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.05"
+    ],
+    "category": "food",
+    "subcategories": [
+      26
+    ],
+    "audience": []
+  },
+  {
+    "slug": "ska",
+    "name": "SKA",
+    "logo": "https://galleria.ge/assets/images/uploads/1774349755-79890/320-1774349755-79890.jpg",
+    "phone": "+995 032 204 04 28",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.02"
+    ],
+    "category": "food",
+    "subcategories": [
+      17,
+      15
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "spx",
+    "name": "SPX",
+    "logo": "https://galleria.ge/assets/images/uploads/1510755401-784590/320-1510755401-784590.svg",
+    "phone": "+995322970167",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.09"
+    ],
+    "category": "shops",
+    "subcategories": [
+      3
+    ],
+    "audience": []
+  },
+  {
+    "slug": "stenders",
+    "name": "Stenders",
+    "logo": "https://galleria.ge/assets/images/uploads/1510144529-420464/320-1510144529-420464.svg",
+    "phone": "+995591446419",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.08"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "studio-by-shoes-gallery-ecco-geox",
+    "name": "Studio by Shoes Gallery | ecco | GEOX",
+    "logo": "https://galleria.ge/assets/images/uploads/1511274066-942687/320-1511274066-942687.svg",
+    "phone": "+995591069087",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.02"
+    ],
+    "category": "shops",
+    "subcategories": [
+      2
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "sulakauri-publishing",
+    "name": "Sulakauri Publishing",
+    "logo": "https://galleria.ge/assets/images/uploads/1626169351-215980/320-1626169351-215980.jpg",
+    "phone": "+995322910954",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.13"
+    ],
+    "category": "shops",
+    "subcategories": [
+      10
+    ],
+    "audience": []
+  },
+  {
+    "slug": "superdry",
+    "name": "Superdry",
+    "logo": "https://galleria.ge/assets/images/uploads/1779110872-285829/320-1779110872-285829.png",
+    "phone": "995322121217",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.05"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "tbc-bank",
+    "name": "TBC Bank",
+    "logo": "https://galleria.ge/assets/images/uploads/1510119898-662069/320-1510119898-662069.svg",
+    "phone": null,
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.04"
+    ],
+    "category": "services",
+    "subcategories": [
+      11
+    ],
+    "audience": []
+  },
+  {
+    "slug": "the-north-face",
+    "name": "The North Face",
+    "logo": "https://galleria.ge/assets/images/uploads/1539705522-580473/320-1539705522-580473.PNG",
+    "phone": "+995598974258",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.27"
+    ],
+    "category": "shops",
+    "subcategories": [
+      3
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "time-georgia",
+    "name": "TI'ME Georgia",
+    "logo": "https://galleria.ge/assets/images/uploads/1598885625-116026/320-1598885625-116026.jpg",
+    "phone": "+995322000280",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.06"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "timberland",
+    "name": "Timberland",
+    "logo": "https://galleria.ge/assets/images/uploads/1510118388-229537/320-1510118388-229537.svg",
+    "phone": "+995 598 19 22 58",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.23"
+    ],
+    "category": "shops",
+    "subcategories": [
+      2
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "tobacco-market",
+    "name": "Tobacco Market",
+    "logo": "https://galleria.ge/assets/images/uploads/1539096120-84657/320-1539096120-84657.png",
+    "phone": "+995568506226",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.19"
+    ],
+    "category": "shops",
+    "subcategories": [
+      10
+    ],
+    "audience": []
+  },
+  {
+    "slug": "tommy-hilfiger",
+    "name": "Tommy hilfiger",
+    "logo": "https://galleria.ge/assets/images/uploads/1685359137-759909/320-1685359137-759909.jpg",
+    "phone": "032 2 05 41 16",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.34"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "topsport",
+    "name": "TopSport",
+    "logo": "https://galleria.ge/assets/images/uploads/1563264532-311590/320-1563264532-311590.png",
+    "phone": "+995568844466",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.10"
+    ],
+    "category": "shops",
+    "subcategories": [
+      3
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "tresor",
+    "name": "Trésor",
+    "logo": "https://galleria.ge/assets/images/uploads/1637062769-432650/320-1637062769-432650.png",
+    "phone": "+995555220071",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.25"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "trussardi",
+    "name": "Trussardi",
+    "logo": "https://galleria.ge/assets/images/uploads/1677062864-316421/320-1677062864-316421.png",
+    "phone": "+995599233447",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.22"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "twinset-milano",
+    "name": "Twinset Milano",
+    "logo": "https://galleria.ge/assets/images/uploads/1759738195-643432/320-1759738195-643432.jpg",
+    "phone": "+995 500 777 001",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 2,
+    "places": [
+      "2.36"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "united-colors-of-benetton",
+    "name": "United Colors of Benetton",
+    "logo": "https://galleria.ge/assets/images/uploads/1510142908-49538/320-1510142908-49538.svg",
+    "phone": "+995577979772",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 1,
+    "places": [
+      "1.03"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "vaporia",
+    "name": "Vaporia",
+    "logo": "https://galleria.ge/assets/images/uploads/1702024442-526217/320-1702024442-526217.jpg",
+    "phone": "+995 577 11 97 35",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": -1,
+    "places": [
+      "-1.21"
+    ],
+    "category": "shops",
+    "subcategories": [
+      10
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "wendys",
+    "name": "Wendy's",
+    "logo": "https://galleria.ge/assets/images/uploads/1550761176-983365/320-1550761176-983365.png",
+    "phone": "+995577000623",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.14"
+    ],
+    "category": "food",
+    "subcategories": [
+      15
+    ],
+    "audience": []
+  },
+  {
+    "slug": "womensecret",
+    "name": "Women’secret",
+    "logo": "https://galleria.ge/assets/images/uploads/1666017254-299747/320-1666017254-299747.png",
+    "phone": null,
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.29"
+    ],
+    "category": "shops",
+    "subcategories": [
+      1
+    ],
+    "audience": [
+      "female"
+    ]
+  },
+  {
+    "slug": "xiaomi-authorised-mi-store",
+    "name": "Xiaomi Authorised Mi Store",
+    "logo": "https://galleria.ge/assets/images/uploads/1646127828-305512/320-1646127828-305512.jpg",
+    "phone": "+995032500570",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.29"
+    ],
+    "category": "shops",
+    "subcategories": [
+      9
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "xs-toys",
+    "name": "XS Toys",
+    "logo": "https://galleria.ge/assets/images/uploads/1677076802-768228/320-1677076802-768228.jpg",
+    "phone": "+995322430460",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.17"
+    ],
+    "category": "shops",
+    "subcategories": [
+      4
+    ],
+    "audience": [
+      "kids"
+    ]
+  },
+  {
+    "slug": "yakudza",
+    "name": "YAKUDZA",
+    "logo": "https://galleria.ge/assets/images/uploads/1750060535-583134/320-1750060535-583134.png",
+    "phone": "+995 596 400099",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 4,
+    "places": [
+      "4.29"
+    ],
+    "category": "food",
+    "subcategories": [
+      15
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  },
+  {
+    "slug": "yves-rocher",
+    "name": "Yves Rocher",
+    "logo": "https://galleria.ge/assets/images/uploads/1510080730-759517/320-1510080730-759517.svg",
+    "phone": "+995595512813",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.16"
+    ],
+    "category": "shops",
+    "subcategories": [
+      6
+    ],
+    "audience": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "slug": "zapatero-espanol",
+    "name": "Zapatero Espanol",
+    "logo": "https://galleria.ge/assets/images/uploads/1620641949-264206/320-1620641949-264206.jpg",
+    "phone": "+995595951757",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 3,
+    "places": [
+      "3.22"
+    ],
+    "category": "shops",
+    "subcategories": [
+      2
+    ],
+    "audience": []
+  },
+  {
+    "slug": "zarapkhana",
+    "name": "Zarapkhana",
+    "logo": "https://galleria.ge/assets/images/uploads/1676030586-14841/320-1676030586-14841.jpg",
+    "phone": "+995322510001",
+    "hours": {
+      "from": "10:00",
+      "to": "22:00"
+    },
+    "floor": 0,
+    "places": [
+      "0.12"
+    ],
+    "category": "shops",
+    "subcategories": [
+      5
+    ],
+    "audience": [
+      "male",
+      "female",
+      "kids"
+    ]
+  }
+]

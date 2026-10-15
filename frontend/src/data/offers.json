@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "store": "sharkninja",
+    "storeName": "shark/ninja",
+    "logo": "https://galleria.ge/assets/images/uploads/1756821512-960855/320-1756821512-960855.png",
+    "badge": "20%",
+    "description": "20% off the full production",
+    "date": "2026-10-12",
+    "category": "shops"
+  },
+  {
+    "id": 2,
+    "store": "jbl",
+    "storeName": "jbl",
+    "logo": "https://galleria.ge/assets/images/uploads/1759394226-94791/320-1759394226-94791.png",
+    "badge": "30%",
+    "description": "Up to 30% off the full production",
+    "date": "2026-10-12",
+    "category": "shops"
+  },
+  {
+    "id": 3,
+    "store": "pandora",
+    "storeName": "pandora",
+    "logo": "https://galleria.ge/assets/images/uploads/1510041799-346813/320-1510041799-346813.svg",
+    "badge": "15-20%",
+    "description": "15% off the first, 20% off the second purchase",
+    "date": "2026-10-08",
+    "category": "shops"
+  },
+  {
+    "id": 4,
+    "store": "time-georgia",
+    "storeName": "ti'me georgia",
+    "logo": "https://galleria.ge/assets/images/uploads/1598885625-116026/320-1598885625-116026.jpg",
+    "badge": "15-20%",
+    "description": "15% off the first, 20% off the second purchase",
+    "date": "2026-10-08",
+    "category": "shops"
+  },
+  {
+    "id": 5,
+    "store": "womensecret",
+    "storeName": "Women'secret",
+    "logo": "https://galleria.ge/assets/images/uploads/1666017254-299747/320-1666017254-299747.png",
+    "badge": "20-40%",
+    "description": "20% off the first, 30% off the second, 40% off the third purchase",
+    "date": "2026-10-08",
+    "category": "shops"
+  },
+  {
+    "id": 6,
+    "store": "jacadi-georgia",
+    "storeName": "Jacadi",
+    "logo": "https://galleria.ge/assets/images/uploads/1641476837-403443/320-1641476837-403443.jpg",
+    "badge": "50%",
+    "description": "Up to 50% off the selected collection",
+    "date": "2026-10-08",
+    "category": "shops"
+  },
+  {
+    "id": 7,
+    "store": "espacho",
+    "storeName": "Espacho",
+    "logo": "https://galleria.ge/assets/images/uploads/1511260490-216415/320-1511260490-216415.svg",
+    "badge": "30%",
+    "description": "Up to 30% off the seasonal collection",
+    "date": "2026-10-08",
+    "category": "shops"
+  },
+  {
+    "id": 8,
+    "store": "nyx-professional-makeup",
+    "storeName": "NYX",
+    "logo": "https://galleria.ge/assets/images/uploads/1510843053-494424/320-1510843053-494424.jpg",
+    "badge": "50%",
+    "description": "Up to 50% off the selected collection",
+    "date": "2026-10-08",
+    "category": "shops"
+  },
+  {
+    "id": 9,
+    "store": "piel-naturals",
+    "storeName": "piel naturals",
+    "logo": "https://galleria.ge/assets/images/uploads/1615455125-583092/320-1615455125-583092.png",
+    "badge": "50%",
+    "description": "50% off the full collection",
+    "date": "2026-10-08",
+    "category": "shops"
+  },
+  {
+    "id": 10,
+    "store": "yves-rocher",
+    "storeName": "YVES ROCHER",
+    "logo": "https://galleria.ge/assets/images/uploads/1510080730-759517/320-1510080730-759517.svg",
+    "badge": "50%",
+    "description": "Up to 50% off the selected production",
+    "date": "2026-09-02",
+    "category": "shops"
+  },
+  {
+    "id": 11,
+    "store": "tresor",
+    "storeName": "tresor",
+    "logo": "https://galleria.ge/assets/images/uploads/1637062769-432650/320-1637062769-432650.png",
+    "badge": "50%",
+    "description": "Up to 50% off the selected collection",
+    "date": "2026-02-13",
+    "category": "shops"
+  },
+  {
+    "id": 12,
+    "store": "gianfranco-ferre",
+    "storeName": "gianfranco ferre",
+    "logo": "https://galleria.ge/assets/images/uploads/1758722394-709101/320-1758722394-709101.jpg",
+    "badge": "65%",
+    "description": "65% off the full collection",
+    "date": "2026-04-29",
+    "category": "shops"
+  },
+  {
+    "id": 13,
+    "store": "miniso",
+    "storeName": "miniso",
+    "logo": "https://galleria.ge/assets/images/uploads/1511173532-311616/320-1511173532-311616.svg",
+    "badge": "30-70%",
+    "description": "Up to 70% off the selected collection",
+    "date": "2026-04-29",
+    "category": "shops"
+  },
+  {
+    "id": 14,
+    "store": "jysk",
+    "storeName": "JYSK Georgia",
+    "logo": "https://galleria.ge/assets/images/uploads/1510041555-198850/320-1510041555-198850.svg",
+    "badge": "50%",
+    "description": "Up to 50% off the selected collection",
+    "date": "2026-02-10",
+    "category": "shops"
+  },
+  {
+    "id": 15,
+    "store": "madame-coco",
+    "storeName": "Madame Coco",
+    "logo": "https://galleria.ge/assets/images/uploads/1681220736-447025/320-1681220736-447025.png",
+    "badge": "70%",
+    "description": "Up to 70% off the full collection",
+    "date": "2026-01-05",
+    "category": "shops"
+  }
+]
