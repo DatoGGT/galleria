@@ -1,61 +1,68 @@
 /*
- * Galleria Tbilisi design tokens — "framed canvas" edition.
- * A deep navy backdrop holds a white bezel; inside it every page sits on a
- * cool grey-blue canvas with frosted cards, condensed display type, mono
- * labels and a single electric-lime accent. The 2017 brand spectrum is kept
- * for category coding (dots, map, tags) but no longer drives large surfaces.
+ * Galleria Tbilisi design tokens — "70s print" edition.
+ * Cream paper, dark-brown ink, a warm sunset palette (tomato, tangerine,
+ * mustard, avocado, teal) and chunky soft serifs. Surfaces are outlined in ink
+ * with hard offset shadows, like screen-printed stickers.
+ * The category colours keep their old names (--teal, --blue, …) so section
+ * coding still works, but are re-mixed into the retro palette.
  */
 :root {
-  --ink: #0f1828;
-  --ink-2: #2b3648;
-  --muted: #5f6c80;
-  --line: rgb(15 24 40 / 0.09);
-  --line-strong: rgb(15 24 40 / 0.18);
+  --ink: #2b1a10;
+  --ink-2: #4a3326;
+  --muted: #86705e;
+  --line: rgb(43 26 16 / 0.14);
+  --line-strong: rgb(43 26 16 / 0.28);
 
-  --backdrop: #1b335a;
-  --backdrop-2: #0b1424;
-  --frame: #ffffff;
-  --canvas: #dce3eb;
-  --canvas-2: #cfd8e2;
-  --card: rgb(244 247 250 / 0.82);
-  --card-solid: #f3f6f9;
-  --surface: #e9eef3;
-  --surface-2: #dfe6ed;
-  --bg: var(--canvas);
+  --paper: #f3e7cf;
+  --paper-2: #ead9b8;
+  --cream: #fbf4e4;
+  --card: #fbf4e4;
+  --card-solid: #fbf4e4;
+  --surface: #f0e2c6;
+  --surface-2: #e6d3b0;
+  --bg: var(--paper);
 
-  --lime: #d6f53a;
-  --lime-ink: #1a2300;
+  /* Sunset stripes */
+  --tomato: #d94a2b;
+  --tangerine: #ee7d2e;
+  --mustard: #f1b434;
+  --avocado: #8a9a3b;
+  --brown: #7a4426;
 
-  --mint: #6cc6b4;
-  --teal: #12b6c8;
-  --blue: #108fd4;
-  --violet: #5b3897;
-  --pink: #e94e72;
-  --orange: #f38a59;
-  --open: #4fb31f;
+  /* Category colours, retro-mixed */
+  --mint: #8fae6a;
+  --teal: #2e8a80;
+  --blue: #3e6ea4;
+  --violet: #8b4a78;
+  --pink: #e17c93;
+  --orange: #e2582f;
+  --open: #4f8f3a;
 
-  --spectrum: linear-gradient(90deg, var(--mint), var(--teal) 20%, var(--blue) 40%, var(--violet) 60%, var(--pink) 80%, var(--orange));
+  --stripes: linear-gradient(180deg, var(--mustard) 0 25%, var(--tangerine) 25% 50%, var(--tomato) 50% 75%, var(--brown) 75% 100%);
+  --stripes-x: linear-gradient(90deg, var(--mustard) 0 25%, var(--tangerine) 25% 50%, var(--tomato) 50% 75%, var(--brown) 75% 100%);
+  --spectrum: var(--stripes-x);
 
   --font: 'Inter', 'Noto Sans Georgian', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-display: 'Oswald', 'Noto Sans Georgian', 'Arial Narrow', sans-serif;
-  --font-mono: 'JetBrains Mono', 'Noto Sans Georgian', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --font-display: 'Fraunces', 'Playfair Display', 'Noto Serif Georgian', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', 'Noto Sans Georgian', ui-monospace, Menlo, monospace;
+
+  --border: 2px solid var(--ink);
+  --hard: 4px 4px 0 var(--ink);
+  --hard-lg: 7px 7px 0 var(--ink);
+  --shadow-sm: 3px 3px 0 var(--ink);
+  --shadow: 5px 5px 0 var(--ink);
+  --shadow-lg: 10px 10px 0 var(--ink);
 
   --r-sm: 10px;
   --r: 16px;
   --r-lg: 22px;
-  --r-xl: 30px;
-  --bezel: 10px;
-  --frame-gap: clamp(0px, 1.4vw, 18px);
-
-  --shadow-sm: 0 1px 2px rgb(15 24 40 / 0.05), 0 2px 8px rgb(15 24 40 / 0.05);
-  --shadow: 0 2px 6px rgb(15 24 40 / 0.05), 0 18px 40px -14px rgb(15 24 40 / 0.18);
-  --shadow-lg: 0 40px 80px -24px rgb(15 24 40 / 0.4);
-  --card-edge: inset 0 0 0 1px rgb(255 255 255 / 0.85);
+  --r-xl: 32px;
 
   --container: 1320px;
   --gutter: clamp(16px, 3.4vw, 40px);
   --header-h: 64px;
 
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
   --accent: var(--ink);
 }

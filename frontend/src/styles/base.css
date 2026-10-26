@@ -7,23 +7,35 @@
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
-  background: var(--backdrop-2);
+  background: var(--paper-2);
 }
 
 body {
   margin: 0;
   min-height: 100vh;
-  padding: var(--frame-gap);
+  padding: clamp(0px, 1.6vw, 22px);
+  /* Halftone dots over warm paper */
   background:
-    radial-gradient(120% 70% at 50% 0%, #2c5592 0%, transparent 70%),
-    linear-gradient(180deg, var(--backdrop) 0%, var(--backdrop-2) 100%) fixed;
+    radial-gradient(circle, rgb(122 68 38 / 0.16) 1px, transparent 1.4px) 0 0 / 14px 14px,
+    var(--paper-2);
   color: var(--ink-2);
   font-family: var(--font);
   font-size: 16px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-feature-settings: 'ss01', 'cv11';
+}
+
+/* Fine paper grain over everything (pointer-transparent). */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  pointer-events: none;
+  opacity: 0.22;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .3 0 0 0 0 .2 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 img,
@@ -58,8 +70,8 @@ h3,
 h4 {
   margin: 0;
   color: var(--ink);
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  font-weight: 650;
+  letter-spacing: -0.01em;
   line-height: 1.1;
 }
 
@@ -68,14 +80,14 @@ p {
 }
 
 :focus-visible {
-  outline: 2px solid var(--ink);
+  outline: 3px solid var(--tangerine);
   outline-offset: 3px;
   border-radius: 6px;
 }
 
 ::selection {
-  background: var(--lime);
-  color: var(--lime-ink);
+  background: var(--mustard);
+  color: var(--ink);
 }
 
 .container {
@@ -87,18 +99,18 @@ p {
 
 /* ---------- Type ---------- */
 
-/* Condensed, all-caps display face. Georgian has no capitals, so it switches to
-   Noto Sans Georgian at its narrowest width instead. */
+/* Groovy soft serif: Fraunces with SOFT/WONK turned up. Cyrillic falls back
+   to Playfair Display, Georgian to Noto Serif Georgian. */
 .display,
 .h-display,
 .page-hero h1,
 .section-head h2,
 .h2 {
   font-family: var(--font-display);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -0.01em;
-  line-height: 0.92;
+  font-weight: 900;
+  font-variation-settings: 'SOFT' 100, 'WONK' 1, 'opsz' 144;
+  letter-spacing: -0.025em;
+  line-height: 0.95;
   color: var(--ink);
 }
 
@@ -107,166 +119,170 @@ p {
 .lang-ka .page-hero h1,
 .lang-ka .section-head h2,
 .lang-ka .h2 {
-  font-family: 'Noto Sans Georgian', var(--font);
-  font-stretch: 62.5%;
-  font-weight: 800;
-  text-transform: none;
+  font-stretch: 75%;
+  letter-spacing: 0;
+  line-height: 1.08;
+}
+
+.lang-ru .display,
+.lang-ru .h-display,
+.lang-ru .page-hero h1,
+.lang-ru .section-head h2,
+.lang-ru .h2 {
   letter-spacing: -0.01em;
-  line-height: 1.04;
+  line-height: 1.02;
 }
 
 .display {
-  font-size: clamp(3rem, 6vw, 6.2rem);
+  font-size: clamp(3rem, 6.6vw, 6.6rem);
 }
 
 .lang-ka .display {
-  font-size: clamp(2.5rem, 5.4vw, 5.4rem);
+  font-size: clamp(2.5rem, 5.4vw, 5.2rem);
 }
 
 .h2,
 .section-head h2 {
-  font-size: clamp(2.2rem, 4.6vw, 3.8rem);
+  font-size: clamp(2.2rem, 4.4vw, 3.8rem);
 }
 
 .lang-ka .h2,
 .lang-ka .section-head h2 {
-  font-size: clamp(1.9rem, 3.8vw, 3.1rem);
+  font-size: clamp(1.9rem, 3.6vw, 3rem);
 }
 
-/* Lime "marker" behind a word or line, as in RUN LIGHTER. */
+/* Italic, tomato, wavy-underlined: the retro "highlight". */
 .mark {
-  position: relative;
-  display: inline;
-  padding: 0 0.08em;
-  background: linear-gradient(transparent 46%, var(--lime) 46%, var(--lime) 96%, transparent 96%);
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+  font-style: italic;
+  color: var(--tomato);
+  text-decoration: underline wavy var(--mustard);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+  text-decoration-skip-ink: none;
 }
 
 .lead {
   font-size: clamp(1.02rem, 1.3vw, 1.18rem);
   color: var(--ink-2);
-  line-height: 1.5;
+  line-height: 1.55;
   max-width: 42ch;
 }
 
-/* Mono micro-label: "DRIFT 2 · ROAD RACER" */
+/* Typewriter micro-label */
 .eyebrow,
 .mono {
   display: inline-flex;
   align-items: center;
   gap: 10px;
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.74rem;
   font-weight: 500;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-2);
 }
 
 .lang-ka .eyebrow,
 .lang-ka .mono {
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
 }
 
 .sep {
   display: inline-block;
-  width: 3px;
-  height: 3px;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
   background: currentColor;
-  opacity: 0.5;
+  opacity: 0.6;
   vertical-align: middle;
   margin-inline: 6px;
 }
 
-/* ---------- Buttons ---------- */
+/* ---------- Buttons: chunky stickers that press down ---------- */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
-  height: 48px;
-  padding: 0 22px;
-  border-radius: 14px;
-  font-weight: 600;
-  font-size: 0.92rem;
+  height: 50px;
+  padding: 0 24px;
+  border: var(--border);
+  border-radius: 999px;
+  font-weight: 650;
+  font-size: 0.95rem;
   white-space: nowrap;
-  transition: transform 0.35s var(--ease), background 0.25s, color 0.25s, box-shadow 0.35s var(--ease);
+  box-shadow: var(--hard);
+  transition: transform 0.15s, box-shadow 0.15s, background 0.2s, color 0.2s;
+}
+
+.btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--ink);
+}
+
+.btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0 var(--ink);
 }
 
 .btn svg {
-  transition: transform 0.35s var(--ease);
+  transition: transform 0.3s var(--bounce);
 }
 
 .btn:hover svg {
   transform: translateX(3px);
 }
 
-.btn:active {
-  transform: scale(0.98);
-}
-
 .btn-dark {
   background: var(--ink);
-  color: #fff;
+  color: var(--cream);
 }
 
 .btn-dark:hover {
-  background: #000;
-  box-shadow: 0 10px 24px -10px rgb(0 0 0 / 0.45);
+  background: var(--brown);
 }
 
-/* Lime pill with a dark arrow chip on the right — "Shop the Drift 2 →" */
 .btn-lime {
   padding-right: 6px;
-  background: var(--lime);
-  color: var(--lime-ink);
-  box-shadow: 0 8px 22px -10px rgb(150 190 0 / 0.8);
+  background: var(--mustard);
+  color: var(--ink);
 }
 
 .btn-lime svg {
   box-sizing: content-box;
-  padding: 9px;
-  border-radius: 10px;
+  padding: 8px;
+  border-radius: 50%;
   background: var(--ink);
-  color: var(--lime);
+  color: var(--mustard);
 }
 
 .btn-lime:hover {
-  background: #ccef1c;
+  background: #f6c24f;
 }
 
 .btn-light {
-  background: #fff;
+  background: var(--cream);
   color: var(--ink);
-  box-shadow: var(--card-edge), var(--shadow-sm);
-}
-
-.btn-light:hover {
-  box-shadow: 0 10px 30px -10px rgb(0 0 0 / 0.35);
 }
 
 .btn-ghost {
-  background: rgb(255 255 255 / 0.5);
+  background: transparent;
   color: var(--ink);
-  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.9);
 }
 
 .btn-ghost:hover {
-  background: #fff;
+  background: var(--cream);
 }
 
 .btn-sm {
-  height: 38px;
-  padding: 0 14px;
-  border-radius: 11px;
-  font-size: 0.86rem;
+  height: 40px;
+  padding: 0 16px;
+  font-size: 0.88rem;
+  box-shadow: var(--shadow-sm);
 }
 
 .btn-sm.btn-lime svg {
-  padding: 6px;
-  border-radius: 8px;
+  padding: 5px;
 }
 
 .btn-block {
@@ -295,46 +311,49 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  font-family: var(--font-mono);
   font-weight: 600;
-  font-size: 0.92rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--ink);
 }
 
 .text-link svg {
   box-sizing: content-box;
   padding: 7px;
+  border: var(--border);
   border-radius: 50%;
-  background: var(--ink);
-  color: var(--lime);
-  transition: transform 0.35s var(--ease);
+  background: var(--mustard);
+  color: var(--ink);
+  transition: transform 0.3s var(--bounce);
 }
 
 .text-link:hover svg,
 a:hover .text-link svg {
-  transform: translateX(4px);
+  transform: translateX(4px) rotate(-10deg);
 }
 
 /* ---------- Chips, tags, segmented ---------- */
 .chip {
   height: 36px;
   padding: 0 16px;
+  border: var(--border);
   border-radius: 999px;
-  background: rgb(255 255 255 / 0.55);
-  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.9);
+  background: var(--cream);
   font-size: 0.86rem;
-  font-weight: 500;
+  font-weight: 550;
   white-space: nowrap;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, transform 0.15s;
 }
 
 .chip:hover {
-  background: #fff;
+  background: var(--mustard);
 }
 
 .chip.is-active {
   background: var(--ink);
-  color: #fff;
-  box-shadow: none;
+  color: var(--cream);
 }
 
 .tag {
@@ -343,91 +362,92 @@ a:hover .text-link svg {
   gap: 8px;
   height: 30px;
   padding: 0 12px 0 10px;
+  border: var(--border);
   border-radius: 999px;
   font-family: var(--font-mono);
   font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.03em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
-  background: #fff;
+  background: var(--cream);
   color: var(--ink);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 2px 2px 0 var(--ink);
 }
 
 .tag::before {
   content: '';
-  width: 8px;
-  height: 8px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
+  border: 1.5px solid var(--ink);
   background: var(--accent);
 }
 
 .segmented {
   display: inline-flex;
-  padding: 4px;
+  padding: 3px;
   gap: 2px;
+  border: var(--border);
   border-radius: 999px;
-  background: rgb(255 255 255 / 0.5);
-  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.9);
+  background: var(--cream);
 }
 
 .segmented button {
-  height: 34px;
-  min-width: 38px;
-  padding: 0 13px;
+  height: 32px;
+  min-width: 36px;
+  padding: 0 12px;
   border-radius: 999px;
   font-size: 0.86rem;
-  font-weight: 500;
-  color: var(--muted);
+  font-weight: 550;
+  color: var(--ink-2);
   white-space: nowrap;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  transition: background 0.2s, color 0.2s;
 }
 
 .segmented button:hover {
+  background: var(--surface);
   color: var(--ink);
 }
 
 .segmented button:disabled {
-  opacity: 0.35;
+  opacity: 0.3;
   cursor: default;
 }
 
 .segmented button:disabled:hover {
-  color: var(--muted);
+  background: none;
 }
 
 .segmented button.is-active {
-  background: var(--ink);
-  color: #fff;
+  background: var(--tomato);
+  color: var(--cream);
 }
 
-/* Frosted card — the building block of the whole layout. */
+/* Outlined sticker card — the building block of the layout. */
 .glass,
 .panel {
-  background: var(--card);
-  backdrop-filter: blur(18px) saturate(1.4);
-  -webkit-backdrop-filter: blur(18px) saturate(1.4);
-  box-shadow: var(--card-edge), var(--shadow);
+  background: var(--cream);
+  border: var(--border);
+  box-shadow: var(--shadow);
 }
 
 .panel {
   border-radius: var(--r-lg);
 }
 
-/* Callout pill with icon disc: "◉ Carbon plate" */
+/* Sticker label with icon disc */
 .callout {
   display: inline-flex;
   align-items: center;
   gap: 10px;
   height: 40px;
-  padding: 0 16px 0 5px;
+  padding: 0 16px 0 4px;
+  border: var(--border);
   border-radius: 999px;
-  background: rgb(255 255 255 / 0.88);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: var(--card-edge), var(--shadow);
+  background: var(--cream);
+  box-shadow: var(--shadow-sm);
   font-size: 0.86rem;
-  font-weight: 600;
+  font-weight: 650;
   color: var(--ink);
   white-space: nowrap;
 }
@@ -438,20 +458,20 @@ a:hover .text-link svg {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: var(--ink);
-  color: var(--lime);
+  background: var(--tomato);
+  color: var(--cream);
 }
 
 .spectrum-line {
-  height: 3px;
-  background: var(--spectrum);
+  height: 8px;
+  background: var(--stripes);
 }
 
 /* ---------- Scroll reveal ---------- */
 .reveal {
   opacity: 0;
   transform: translateY(24px);
-  transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
+  transition: opacity 0.8s var(--ease), transform 0.8s var(--ease);
 }
 
 .reveal.is-in {

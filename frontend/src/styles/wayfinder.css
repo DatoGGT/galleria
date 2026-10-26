@@ -583,35 +583,55 @@
   }
 }
 
-/* ---------- Framed-canvas skin ---------- */
+/* ---------- 70s print skin ---------- */
 .wf-cats,
 .wf-floors {
-  background: var(--card);
-  box-shadow: var(--card-edge), var(--shadow-sm);
+  border: var(--border);
+  background: var(--cream);
+  box-shadow: var(--shadow-sm);
+}
+
+.wf-cat + .wf-cat,
+.wf-floor + .wf-floor {
+  border-top: 2px dashed var(--line-strong);
 }
 
 .wf-stage {
+  border: var(--border);
   background:
-    radial-gradient(70% 60% at 50% 55%, rgb(255 255 255 / 0.9), transparent 75%),
-    var(--card);
-  box-shadow: var(--card-edge), var(--shadow);
+    radial-gradient(70% 60% at 50% 55%, var(--cream), transparent 75%),
+    var(--surface);
+  box-shadow: var(--shadow);
 }
 
 .wf-stage-head h2,
 .wf-floor-num {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 900;
+  font-variation-settings: 'SOFT' 100, 'WONK' 1;
   letter-spacing: 0;
 }
 
 .wf-floor.is-active {
-  background: var(--ink);
+  background: var(--tomato);
 }
 
-.wf-floor.is-active .wf-floor-num {
-  color: var(--lime);
+.wf-floor.is-active .wf-floor-num,
+.wf-floor.is-active .wf-floor-label {
+  color: var(--cream);
 }
 
 .wf-list button.is-active {
-  box-shadow: inset 0 0 0 1px var(--line), inset 3px 0 0 var(--lime);
+  box-shadow: inset 0 0 0 2px var(--ink), inset 5px 0 0 var(--accent);
+}
+
+.wf-list-logo,
+.plan-selected img {
+  border: 1.5px solid var(--ink);
+}
+
+.plan-selected,
+.map-bubble {
+  border: var(--border);
+  box-shadow: var(--shadow-sm);
 }

@@ -136,6 +136,20 @@ export function Home() {
             </p>
           </div>
 
+          <span className="hero-stamp" aria-hidden="true">
+            <svg viewBox="0 0 128 128">
+              <defs>
+                <path id="stamp-ring" d="M64 64m-49 0a49 49 0 1 1 98 0a49 49 0 1 1-98 0" />
+              </defs>
+              <text>
+                <textPath href="#stamp-ring">
+                  {t('brand.name')} ✶ {t('visit.everyDay')} ✶ {MALL_HOURS.from}–{MALL_HOURS.to} ✶
+                </textPath>
+              </text>
+            </svg>
+            <span className="hero-stamp-core">★</span>
+          </span>
+
           <div className="hero-object">
             <span className="hero-floor-shadow" aria-hidden="true" />
             <div className="hero-disc" aria-hidden="true">
