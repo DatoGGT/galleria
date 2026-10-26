@@ -17,7 +17,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="site-footer win" data-title={`${t('brand.name')} — ${t('visit.contact')}`}>
+    <footer className="site-footer">
       <div className="container">
         <div className="footer-meta mono">
           <span>{t('brand.address')}</span>

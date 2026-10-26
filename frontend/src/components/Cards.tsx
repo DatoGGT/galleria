@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import type { NewsItem, Offer, Store } from '../api';
 import { useLang } from '../i18n/LangContext';
 import { floorLabel, SECTION_COLOR, subcategoryLabel } from '../lib/categories';
@@ -87,17 +87,15 @@ export function SectionHead({ eyebrow, title, link, linkLabel }: { eyebrow?: str
   );
 }
 
-/** Browser-style address bar above inner-page titles: "Address [ galleria.ge/shops ]". */
+/** Mono strip above inner-page titles: "● GALLERIA TBILISI ──── RUSTAVELI AVE. 2/4". */
 export function PageMeta() {
   const { t } = useLang();
-  const { pathname } = useLocation();
   return (
-    <p className="page-meta">
-      <span className="page-meta-label">{t('visit.address')}</span>
-      <span className="page-meta-field">
-        <Icon name="globe" size={14} />
-        galleria.ge{pathname === '/' ? '' : pathname}
-      </span>
+    <p className="page-meta mono">
+      <span className="page-meta-dot" aria-hidden="true" />
+      <span>{t('brand.name')}</span>
+      <span className="page-meta-rule" />
+      <span>{t('brand.address')}</span>
     </p>
   );
 }

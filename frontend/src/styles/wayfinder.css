@@ -583,83 +583,39 @@
   }
 }
 
-/* ---------- Desktop 98 skin ---------- */
+/* ---------- Swiss skin ---------- */
 .wf-cats,
 .wf-floors {
-  padding: 3px;
-  background: var(--gray-300);
-  box-shadow: var(--raised);
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .wf-cat + .wf-cat,
 .wf-floor + .wf-floor {
-  border-top: 1px solid var(--gray-400);
-}
-
-.wf-cat:hover,
-.wf-floor:hover {
-  background: var(--gray-200);
+  border-top: 1px solid var(--line);
 }
 
 .wf-check {
-  border-radius: 0;
-  background: var(--white);
-  box-shadow: var(--sunken);
-}
-
-.wf-list {
-  background: var(--white);
-  box-shadow: var(--sunken);
-}
-
-.wf-list button.is-active {
-  background: var(--blue-600);
-  color: var(--white);
-  box-shadow: none;
-}
-
-.wf-list button.is-active small,
-.wf-list button.is-active strong {
-  color: var(--white);
-}
-
-.wf-list-logo,
-.plan-selected img {
-  border-radius: 0;
-  box-shadow: var(--sunken-soft);
+  border-radius: 50%;
 }
 
 .wf-stage {
-  padding: 3px;
-  background: var(--gray-300);
-  box-shadow: var(--raised);
-}
-
-.wf-stage-head {
-  padding: 6px 10px;
-  background: var(--titlebar);
-}
-
-.wf-stage-head h2,
-.wf-stage-head p {
-  color: var(--white);
+  border-radius: 0;
+  border: 1px solid var(--line);
+  background: var(--gray-50);
+  box-shadow: none;
 }
 
 .wf-stage-head h2,
 .wf-floor-num {
-  font-family: var(--font);
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-.wayfinder {
-  margin: 3px 0 0;
-  background: var(--white);
-  box-shadow: var(--sunken);
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.04em;
 }
 
 .wf-floor.is-active {
-  background: var(--blue-600);
+  background: var(--blue);
 }
 
 .wf-floor.is-active .wf-floor-num,
@@ -667,12 +623,27 @@
   color: var(--white);
 }
 
+.wf-list button {
+  border-radius: 0;
+}
+
+.wf-list button.is-active {
+  box-shadow: inset 3px 0 0 var(--blue);
+  background: var(--gray-50);
+}
+
+.wf-list-logo,
+.plan-selected img {
+  border-radius: 0;
+}
+
 .plan-selected,
 .map-bubble {
   border-radius: 0;
-  box-shadow: var(--raised), 3px 3px 0 rgb(10 31 85 / 0.3);
+  border: 1px solid var(--ink);
+  box-shadow: none;
 }
 
-.wf-floor-dots i {
+.filter-search {
   border-radius: 0;
 }

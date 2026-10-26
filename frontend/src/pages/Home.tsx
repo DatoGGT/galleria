@@ -20,9 +20,9 @@ const featured = FEATURED.map((n) => stores.find((s) => s.name === n)).filter((s
 
 /** Callouts around the hero object: a dot on the object, a dotted leader, a pill. Coordinates in % of the object box. */
 const PINS: { dot: [number, number]; at: [number, number]; path: string; icon: IconName }[] = [
-  { dot: [61, 26], at: [82, 8], path: '/shops', icon: 'sparkle' },
+  { dot: [61, 26], at: [64, 5], path: '/shops', icon: 'sparkle' },
   { dot: [36, 64], at: [16, 88], path: '/floors', icon: 'layers' },
-  { dot: [68, 62], at: [86, 84], path: '/visit', icon: 'clock' },
+  { dot: [68, 62], at: [44, 99], path: '/visit', icon: 'clock' },
 ];
 
 type Accent = React.CSSProperties & { '--accent'?: string; '--i'?: number };
@@ -58,7 +58,7 @@ function HeroOffers() {
   const step = (d: number) => setI((v) => (v + d + list.length) % list.length);
 
   return (
-    <aside className="hero-offers win" data-title={t('home.offers')}>
+    <aside className="hero-offers">
       <h2 className="h-display">{t('home.offers')}</h2>
       <p className="hero-offers-lead">
         <span className="hero-offers-store">{o.storeName}</span> — {o.description}
@@ -162,7 +162,7 @@ export function Home() {
           <HeroOffers />
 
           {news[0] && (
-            <Link to={to(`/news/${news[0].slug}`)} className="hero-story win" data-title={t('home.news')}>
+            <Link to={to(`/news/${news[0].slug}`)} className="hero-story">
               <span className="hero-story-img">
                 {news[0].cover && <img src={news[0].cover} alt="" />}
                 <span className="hero-story-date mono">{formatDate(news[0].date, locale, { year: undefined })}</span>
@@ -177,7 +177,7 @@ export function Home() {
           )}
         </div>
 
-        <div className="hero-notch win" data-title={t('brand.name')}>
+        <div className="hero-notch">
           <span className="hero-notch-cut hero-notch-cut-a" />
           <span className="hero-notch-cut hero-notch-cut-b" />
           <p>{t('home.lead')}</p>
@@ -199,8 +199,7 @@ export function Home() {
               <Reveal key={c}>
                 <Link
                   to={to(`/${c}`)}
-                  className="cat-tile win"
-                  data-title={'C:\\Galleria\\' + t(`cat.${c}.title`)}
+                  className="cat-tile"
                   style={{ '--accent': SECTION_COLOR[c], '--i': i } as Accent}
                 >
                   <span className="cat-tile-count">{count(c)}</span>
@@ -257,7 +256,7 @@ export function Home() {
       <section className="section">
         <div className="container">
           <Reveal>
-            <div className="floors-teaser win" data-title={t('nav.floors')}>
+            <div className="floors-teaser">
               <div className="floors-teaser-copy">
                 <p className="eyebrow">{t('nav.floors')}</p>
                 <h2 className="h-display">{t('home.floorsTitle')}</h2>
@@ -289,7 +288,7 @@ export function Home() {
       <section className="section">
         <div className="container duo">
           <Reveal>
-            <Link to={to('/loyal')} className="promo promo-loyal win" data-title={t('nav.loyal')}>
+            <Link to={to('/loyal')} className="promo promo-loyal">
               <div className="promo-art" aria-hidden="true">
                 <div className="phone">
                   <div className="phone-screen">
@@ -312,7 +311,7 @@ export function Home() {
             </Link>
           </Reveal>
           <Reveal>
-            <Link to={to('/gift-card')} className="promo promo-gift win" data-title={t('nav.giftCard')}>
+            <Link to={to('/gift-card')} className="promo promo-gift">
               <div className="promo-art" aria-hidden="true">
                 <div className="gift-card-visual">
                   <span className="gc-brand">Galleria Tbilisi</span>
@@ -352,7 +351,7 @@ export function Home() {
       <section className="section section-last">
         <div className="container">
           <Reveal>
-            <div className="visit-strip win" data-title={t('nav.visit')}>
+            <div className="visit-strip">
               <div>
                 <Icon name="clock" />
                 <span>

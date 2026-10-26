@@ -3,7 +3,6 @@ import { Outlet, Route, Routes, useLocation } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { SearchOverlay } from './components/SearchOverlay';
-import { Taskbar } from './components/Taskbar';
 import type { Lang } from './i18n/dict';
 import { LangProvider } from './i18n/LangContext';
 import { Directory } from './pages/Directory';
@@ -41,14 +40,13 @@ function Layout({ lang }: { lang: Lang }) {
   return (
     <LangProvider lang={lang}>
       <div className={`app lang-${lang}`}>
-        <div className="frame win" data-title={`galleria.ge${pathname === '/' ? '' : pathname}`}>
+        <div className="frame">
           <Header onSearch={() => setSearchOpen(true)} />
           <main className="canvas">
             <Outlet />
           </main>
           <Footer />
         </div>
-        <Taskbar onStart={() => setSearchOpen(true)} />
         <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)} />
       </div>
     </LangProvider>
