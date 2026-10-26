@@ -58,7 +58,7 @@ function HeroOffers() {
   const step = (d: number) => setI((v) => (v + d + list.length) % list.length);
 
   return (
-    <aside className="hero-offers panel">
+    <aside className="hero-offers win" data-title={t('home.offers')}>
       <h2 className="h-display">{t('home.offers')}</h2>
       <p className="hero-offers-lead">
         <span className="hero-offers-store">{o.storeName}</span> — {o.description}
@@ -136,20 +136,6 @@ export function Home() {
             </p>
           </div>
 
-          <span className="hero-stamp" aria-hidden="true">
-            <svg viewBox="0 0 128 128">
-              <defs>
-                <path id="stamp-ring" d="M64 64m-49 0a49 49 0 1 1 98 0a49 49 0 1 1-98 0" />
-              </defs>
-              <text>
-                <textPath href="#stamp-ring">
-                  {t('brand.name')} ✶ {t('visit.everyDay')} ✶ {MALL_HOURS.from}–{MALL_HOURS.to} ✶
-                </textPath>
-              </text>
-            </svg>
-            <span className="hero-stamp-core">★</span>
-          </span>
-
           <div className="hero-object">
             <span className="hero-floor-shadow" aria-hidden="true" />
             <div className="hero-disc" aria-hidden="true">
@@ -176,7 +162,7 @@ export function Home() {
           <HeroOffers />
 
           {news[0] && (
-            <Link to={to(`/news/${news[0].slug}`)} className="hero-story panel">
+            <Link to={to(`/news/${news[0].slug}`)} className="hero-story win" data-title={t('home.news')}>
               <span className="hero-story-img">
                 {news[0].cover && <img src={news[0].cover} alt="" />}
                 <span className="hero-story-date mono">{formatDate(news[0].date, locale, { year: undefined })}</span>
@@ -191,7 +177,7 @@ export function Home() {
           )}
         </div>
 
-        <div className="hero-notch">
+        <div className="hero-notch win" data-title={t('brand.name')}>
           <span className="hero-notch-cut hero-notch-cut-a" />
           <span className="hero-notch-cut hero-notch-cut-b" />
           <p>{t('home.lead')}</p>
@@ -213,7 +199,8 @@ export function Home() {
               <Reveal key={c}>
                 <Link
                   to={to(`/${c}`)}
-                  className="cat-tile"
+                  className="cat-tile win"
+                  data-title={'C:\\Galleria\\' + t(`cat.${c}.title`)}
                   style={{ '--accent': SECTION_COLOR[c], '--i': i } as Accent}
                 >
                   <span className="cat-tile-count">{count(c)}</span>
@@ -270,7 +257,7 @@ export function Home() {
       <section className="section">
         <div className="container">
           <Reveal>
-            <div className="floors-teaser">
+            <div className="floors-teaser win" data-title={t('nav.floors')}>
               <div className="floors-teaser-copy">
                 <p className="eyebrow">{t('nav.floors')}</p>
                 <h2 className="h-display">{t('home.floorsTitle')}</h2>
@@ -302,7 +289,7 @@ export function Home() {
       <section className="section">
         <div className="container duo">
           <Reveal>
-            <Link to={to('/loyal')} className="promo promo-loyal">
+            <Link to={to('/loyal')} className="promo promo-loyal win" data-title={t('nav.loyal')}>
               <div className="promo-art" aria-hidden="true">
                 <div className="phone">
                   <div className="phone-screen">
@@ -325,7 +312,7 @@ export function Home() {
             </Link>
           </Reveal>
           <Reveal>
-            <Link to={to('/gift-card')} className="promo promo-gift">
+            <Link to={to('/gift-card')} className="promo promo-gift win" data-title={t('nav.giftCard')}>
               <div className="promo-art" aria-hidden="true">
                 <div className="gift-card-visual">
                   <span className="gc-brand">Galleria Tbilisi</span>
@@ -365,7 +352,7 @@ export function Home() {
       <section className="section section-last">
         <div className="container">
           <Reveal>
-            <div className="visit-strip">
+            <div className="visit-strip win" data-title={t('nav.visit')}>
               <div>
                 <Icon name="clock" />
                 <span>

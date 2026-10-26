@@ -1,71 +1,90 @@
 /*
- * Galleria Tbilisi design tokens — retro print, "ice" palette.
- * Same 70s language (soft serifs, ink outlines, hard offset shadows, stripes,
- * sunbursts) in white, light white, light blue, blue and silver.
- * The warm names are kept as roles so the stylesheets don't change:
- *   --tomato    primary accent      → blue
- *   --mustard   highlight fill      → light blue
- *   --tangerine secondary fill      → silver
- *   --brown     deep accent         → deep blue
- * Category colours keep their old names (--teal, --blue, …) for section coding.
+ * Galleria Tbilisi design tokens — "Desktop 98" edition.
+ * The site is a late-90s desktop: a blue dithered desktop, light-gray windows
+ * with bevelled edges and blue title bars, white content wells, a taskbar.
+ * Palette is strictly blue / light gray / white (plus the gray-blue shades a
+ * bevel needs to read as 3D).
  */
 :root {
-  --ink: #102446;
-  --ink-2: #33496b;
-  --muted: #74859c;
-  --line: rgb(16 36 70 / 0.12);
-  --line-strong: rgb(16 36 70 / 0.26);
+  /* Blues */
+  --blue-900: #0a1f55;
+  --blue-700: #12399a;
+  --blue-600: #1e50b4;
+  --blue-500: #2f6ad0;
+  --blue-300: #8fb4ec;
+  --blue-100: #dbe7fb;
+  --desktop: #2a5fb0;
 
-  --paper: #f2f6fb;
-  --paper-2: #e3eaf3;
-  --cream: #ffffff;
-  --card: #ffffff;
-  --card-solid: #ffffff;
-  --surface: #eaf0f7;
-  --surface-2: #dbe4ee;
-  --bg: var(--paper);
+  /* Grays */
+  --gray-600: #7d8796;
+  --gray-400: #aeb6c2;
+  --gray-300: #c9ced6;
+  --gray-200: #dde1e7;
+  --gray-100: #eef0f3;
+  --white: #ffffff;
 
-  /* Stripe roles */
-  --tomato: #2563d9;
-  --tangerine: #c5cfdb;
-  --mustard: #bcdcfb;
-  --avocado: #9fb0c4;
-  --brown: #173d80;
+  --ink: #0a1f55;
+  --ink-2: #2a3a5c;
+  --muted: #5d6a80;
+  --line: rgb(10 31 85 / 0.14);
+  --line-strong: rgb(10 31 85 / 0.3);
 
-  /* Category colours */
-  --mint: #a9cdea;
-  --teal: #2563d9;
-  --blue: #5aa8e8;
-  --violet: #1d3f86;
-  --pink: #9aaabd;
-  --orange: #3d7ff0;
-  --open: #2f9a6a;
+  --bg: var(--white);
+  --surface: var(--gray-200);
+  --surface-2: var(--gray-300);
+  --card: var(--gray-300);
+  --card-solid: var(--gray-300);
 
-  --stripes: linear-gradient(180deg, var(--mustard) 0 25%, var(--tangerine) 25% 50%, var(--tomato) 50% 75%, var(--brown) 75% 100%);
-  --stripes-x: linear-gradient(90deg, var(--mustard) 0 25%, var(--tangerine) 25% 50%, var(--tomato) 50% 75%, var(--brown) 75% 100%);
-  --spectrum: var(--stripes-x);
+  /* Category colours (kept names for section coding) */
+  --mint: #9ec3f0;
+  --teal: #1e50b4;
+  --blue: #4a90e2;
+  --violet: #0a2a6e;
+  --pink: #8a96a8;
+  --orange: #2f6ad0;
+  --open: #1e9b5a;
 
-  --font: 'Inter', 'Noto Sans Georgian', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-display: 'Fraunces', 'Playfair Display', 'Noto Serif Georgian', Georgia, serif;
-  --font-mono: 'IBM Plex Mono', 'Noto Sans Georgian', ui-monospace, Menlo, monospace;
+  --spectrum: linear-gradient(90deg, var(--blue-900), var(--blue-500));
+  --titlebar: linear-gradient(90deg, var(--blue-900), var(--blue-500) 70%, var(--blue-300));
+  --titlebar-off: linear-gradient(90deg, var(--gray-600), var(--gray-400));
 
-  --border: 2px solid var(--ink);
-  --hard: 4px 4px 0 var(--ink);
-  --hard-lg: 7px 7px 0 var(--ink);
-  --shadow-sm: 3px 3px 0 var(--ink);
-  --shadow: 5px 5px 0 var(--ink);
-  --shadow-lg: 10px 10px 0 var(--ink);
+  /* Bevels: light from top-left. */
+  --raised:
+    inset -1px -1px 0 var(--blue-900),
+    inset 1px 1px 0 var(--white),
+    inset -2px -2px 0 var(--gray-600),
+    inset 2px 2px 0 var(--gray-100);
+  --sunken:
+    inset 1px 1px 0 var(--gray-600),
+    inset -1px -1px 0 var(--white),
+    inset 2px 2px 0 var(--blue-900),
+    inset -2px -2px 0 var(--gray-200);
+  --sunken-soft:
+    inset 1px 1px 0 var(--gray-600),
+    inset -1px -1px 0 var(--white);
+  --pressed:
+    inset 1px 1px 0 var(--blue-900),
+    inset -1px -1px 0 var(--white),
+    inset 2px 2px 0 var(--gray-600);
 
-  --r-sm: 10px;
-  --r: 16px;
-  --r-lg: 22px;
-  --r-xl: 32px;
+  --shadow-sm: var(--raised);
+  --shadow: var(--raised);
+  --shadow-lg: var(--raised), 6px 6px 0 rgb(10 31 85 / 0.35);
+
+  --font: 'Inter', 'Noto Sans Georgian', Tahoma, Verdana, system-ui, sans-serif;
+  --font-display: 'Press Start 2P', 'Noto Sans Georgian', 'Courier New', monospace;
+  --font-mono: 'IBM Plex Mono', 'Noto Sans Georgian', ui-monospace, monospace;
+
+  --r-sm: 0;
+  --r: 0;
+  --r-lg: 0;
+  --r-xl: 0;
 
   --container: 1320px;
-  --gutter: clamp(16px, 3.4vw, 40px);
-  --header-h: 64px;
+  --gutter: clamp(14px, 3vw, 36px);
+  --header-h: 54px;
+  --taskbar-h: 40px;
 
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
-  --accent: var(--ink);
+  --accent: var(--blue-600);
 }

@@ -105,7 +105,7 @@ export function SearchOverlay({ open, onClose }: { open: boolean; onClose: () =>
 
   return (
     <div className="search-overlay" role="dialog" aria-modal="true" aria-label={t('nav.search')} onMouseDown={onClose}>
-      <div className="search-panel" onMouseDown={(e) => e.stopPropagation()} onKeyDown={onKey}>
+      <div className="search-panel win" data-title={t('nav.search')} onMouseDown={(e) => e.stopPropagation()} onKeyDown={onKey}>
         <div className="search-field">
           <Icon name="search" size={22} />
           <input
