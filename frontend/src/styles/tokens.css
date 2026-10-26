@@ -1,42 +1,45 @@
 /*
- * Galleria Tbilisi design tokens — "70s print" edition.
- * Cream paper, dark-brown ink, a warm sunset palette (tomato, tangerine,
- * mustard, avocado, teal) and chunky soft serifs. Surfaces are outlined in ink
- * with hard offset shadows, like screen-printed stickers.
- * The category colours keep their old names (--teal, --blue, …) so section
- * coding still works, but are re-mixed into the retro palette.
+ * Galleria Tbilisi design tokens — retro print, "ice" palette.
+ * Same 70s language (soft serifs, ink outlines, hard offset shadows, stripes,
+ * sunbursts) in white, light white, light blue, blue and silver.
+ * The warm names are kept as roles so the stylesheets don't change:
+ *   --tomato    primary accent      → blue
+ *   --mustard   highlight fill      → light blue
+ *   --tangerine secondary fill      → silver
+ *   --brown     deep accent         → deep blue
+ * Category colours keep their old names (--teal, --blue, …) for section coding.
  */
 :root {
-  --ink: #2b1a10;
-  --ink-2: #4a3326;
-  --muted: #86705e;
-  --line: rgb(43 26 16 / 0.14);
-  --line-strong: rgb(43 26 16 / 0.28);
+  --ink: #102446;
+  --ink-2: #33496b;
+  --muted: #74859c;
+  --line: rgb(16 36 70 / 0.12);
+  --line-strong: rgb(16 36 70 / 0.26);
 
-  --paper: #f3e7cf;
-  --paper-2: #ead9b8;
-  --cream: #fbf4e4;
-  --card: #fbf4e4;
-  --card-solid: #fbf4e4;
-  --surface: #f0e2c6;
-  --surface-2: #e6d3b0;
+  --paper: #f2f6fb;
+  --paper-2: #e3eaf3;
+  --cream: #ffffff;
+  --card: #ffffff;
+  --card-solid: #ffffff;
+  --surface: #eaf0f7;
+  --surface-2: #dbe4ee;
   --bg: var(--paper);
 
-  /* Sunset stripes */
-  --tomato: #d94a2b;
-  --tangerine: #ee7d2e;
-  --mustard: #f1b434;
-  --avocado: #8a9a3b;
-  --brown: #7a4426;
+  /* Stripe roles */
+  --tomato: #2563d9;
+  --tangerine: #c5cfdb;
+  --mustard: #bcdcfb;
+  --avocado: #9fb0c4;
+  --brown: #173d80;
 
-  /* Category colours, retro-mixed */
-  --mint: #8fae6a;
-  --teal: #2e8a80;
-  --blue: #3e6ea4;
-  --violet: #8b4a78;
-  --pink: #e17c93;
-  --orange: #e2582f;
-  --open: #4f8f3a;
+  /* Category colours */
+  --mint: #a9cdea;
+  --teal: #2563d9;
+  --blue: #5aa8e8;
+  --violet: #1d3f86;
+  --pink: #9aaabd;
+  --orange: #3d7ff0;
+  --open: #2f9a6a;
 
   --stripes: linear-gradient(180deg, var(--mustard) 0 25%, var(--tangerine) 25% 50%, var(--tomato) 50% 75%, var(--brown) 75% 100%);
   --stripes-x: linear-gradient(90deg, var(--mustard) 0 25%, var(--tangerine) 25% 50%, var(--tomato) 50% 75%, var(--brown) 75% 100%);

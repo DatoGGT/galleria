@@ -16,7 +16,7 @@ body {
   padding: clamp(0px, 1.6vw, 22px);
   /* Halftone dots over warm paper */
   background:
-    radial-gradient(circle, rgb(122 68 38 / 0.16) 1px, transparent 1.4px) 0 0 / 14px 14px,
+    radial-gradient(circle, rgb(22 58 120 / 0.16) 1px, transparent 1.4px) 0 0 / 14px 14px,
     var(--paper-2);
   color: var(--ink-2);
   font-family: var(--font);
@@ -35,7 +35,7 @@ body::after {
   pointer-events: none;
   opacity: 0.22;
   mix-blend-mode: multiply;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .3 0 0 0 0 .2 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .2 0 0 0 0 .3 0 0 0 0 .5 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 img,
@@ -257,7 +257,7 @@ p {
 }
 
 .btn-lime:hover {
-  background: #f6c24f;
+  background: #a8d2f9;
 }
 
 .btn-light {
